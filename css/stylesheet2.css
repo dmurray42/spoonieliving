@@ -1,0 +1,92 @@
+
+div {
+
+}
+
+p {
+
+}
+
+hr {
+	color:#DBA9A9;
+	/*TODO is this even working? */
+}
+
+a {
+	color:#8C4646;
+	text-decoration:none;
+}
+
+h1, h2, h3{
+	color:#8C4646;
+}
+
+#page {
+
+}
+
+#header {
+
+}
+
+#header img{
+	width:100%;
+}
+
+#navigation ul, #sidebar ul {
+	list-style:none;
+	padding-left:0;
+}
+
+.nav-justified {
+   border-collapse:separate;
+   border-spacing:20px;
+   /*TODO navbar has white space to the left, STILL*/
+}
+
+.button, .active {
+	border:1px solid #DBA9A9;
+	border-radius:5px;
+}
+
+.button a, .active a {
+	text-decoration:none;
+	font-size:large;
+}
+
+.button a:hover, .active a{
+	background-color:#F5E9E9 !important;
+	color:#8C4646 !important;
+}
+
+#content {
+
+}
+
+#sidebar {
+ 	width: 100%;
+}
+
+.side-item {
+ 	width:100%;
+ 	padding:5px;
+}
+
+#sidebar li {
+	display:inline;
+}
+
+.favicon img{
+	width:35px;
+	height:35px;
+}
+
+form label {
+	font-weight:normal;
+}
+
+#footer {
+	text-align:center;
+	font-style:italic;
+	font-size:small;
+}
