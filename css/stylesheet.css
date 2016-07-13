@@ -7,75 +7,71 @@ p {
 
 }
 
+hr {
+	color:#DBA9A9;
+	/*TODO is this even working? */
+}
+
 a {
-	color:#632424;
+	color:#8C4646;
 	text-decoration:none;
 }
 
-h1 {
+h1, h2, h3{
+	color:#8C4646;
 }
 
 #page {
- 	width:100%;
- 	min-width:750px;
- 	background-color:#A66A6A;
+
+}
+
+.container{
 }
 
 #header {
-	font-size:25px;
-	background-color:#ffffff;
- 	opacity:0.8;
-    filter:alpha(opacity=80); /* For IE8 and earlier */
-    color:#000000;
- 	border-radius:15px;
- 	padding:15px;
- 	margin-top:15px;
+
 }
 
 #header img{
 	width:100%;
 }
 
-#navigation {
-	margin-top:25px;
-	margin-bottom:25px;
-}
-
-#navigation ul {
+#navigation ul, #sidebar ul, #side-item ul {
 	list-style:none;
-	padding:0;
-	margin:0;
 }
 
-.nav nav-pills {
-	display:flex;
-	justify-content:space-between;
+.nav-justified {
+   border-collapse:separate;
+   border-spacing:20px;
 }
 
-.button {
-	background-color:#ffffff;
-	opacity:0.8;
-    filter:alpha(opacity=80); /* For IE8 and earlier */
-	/*border-radius:15px;
-	margin:0px,20px,0px,20px;
-	padding:10px;
-	display:inline;*/
+.button, .active {
+	border:1px solid #DBA9A9;
+	border-radius:5px;
 }
 
-.button a {
-	/*text-decoration:none;
-	font-weight:bold;
-	color:#000000;*/
+.button a, .active a {
+	text-decoration:none;
+	font-size:large;
 }
 
-.button:hover {
-	/*opacity:1.0;
-    filter:alpha(opacity=100); /* For IE8 and earlier */*/
+.button a:hover, .active a{
+	background-color:#F5E9E9 !important;
+	color:#8C4646 !important;
 }
 
-.favicon {
-	/*display:inline;*/
-	/*margin:0px,20px,0px,20px;*/
+#content {
+
+}
+
+#sidebar {
+}
+
+.side-item {
+}
+
+#sidebar li {
+	display:inline;
 }
 
 .favicon img{
@@ -83,32 +79,12 @@ h1 {
 	height:35px;
 }
 
-#content {
- 	float:left;
- 	width:100%;
- 	background-color:#ffffff;
- 	opacity:0.8;
-    filter:alpha(opacity=80); /* For IE8 and earlier */
-    color:#000000;
- 	border-radius:15px;
- 	padding:25px;
-}
-
-#sidebar {
- 	width: 100%;
-}
-
-.side-item {
- background-color:#ffffff;
- opacity:0.8;
-    filter:alpha(opacity=80); /* For IE8 and earlier */
- border-radius:15px;
- color:#000000;
- width:100%;
- padding:5px;
+form label {
+	font-weight:normal;
 }
 
 #footer {
- clear:both;
- color:#000000;
+	text-align:center;
+	font-style:italic;
+	font-size:small;
 }

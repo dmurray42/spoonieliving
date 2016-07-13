@@ -1,16 +1,166 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>Spoonie Living</title>
+	<title>Spoonie Living</title>
+
+	<script>
+	// Picture element HTML5 shiv
+	document.createElement( "picture" );
+	</script>
+	<script src="code/picturefill.js" async></script>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
 </head>
+
 <body>
-<center>
-<img src="/img/woman.png"><br>
-<img src="/img/logo.png">
-<h1>Welcome!</h1>
-<p>This site is currently under construction, but please check back soon for more content!</p> 
-<p>In the meantime, you can visit our blog at <a href="http://blog.spoonie-living.com">blog.spoonie-living.com</a>.</p>
-<p>Hugs and spoons!</p>
-<p>--Webmistress Diane</p>
-</center>
+
+	<div class="container">
+
+		<div class="row">
+
+			<div id="header">
+				<div class="col-xs-12 col-md-12">
+					<a href="/index.html">
+						<picture>
+						<source srcset="/img/header.png" media="(min-width: 800px)">
+						<source srcset="/img/headermobile.png">
+						<img srcset="/img/headermobile.png" alt="Spoonie Living">
+					</picture>
+			</a>
+		</div>
+	</div>
+
+
+
+
+	<div class="row">
+		<div id="navigation">
+			<div class="col-xs-12 col-md-12">
+				<ul class="nav nav-justified nav-pills">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li class="button"><a href="/http://blog.spoonieliving.com/about">About</a></li>
+					<li class="button"><a href="http://blog.spoonieliving.com">Blog</a></li>
+					<li class="button"><a href="/consulting/">Consulting</a></li>
+					<li class="button"><a href="https://papaly.com/9/vHE5">Resources</a></li>
+					<li class="button"><a href="https://gumroad.com/l/chronically-badass">Zine</a></li>
+					<li class="button"><a href="https://itunes.apple.com/us/app/spoonie-living-app/id1101348762?mt=8">App</a></li>
+				</ul>			
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="row">
+	<div id="content">
+		<div class="col-xs-12 col-md-9">
+
+			<h1>Welcome To Spoonie Living!</h1>
+			<hr>
+			<br>
+			<p>
+				We're stoked that you've stopped by! Whether you're a patient, friend or family to one, a caregiver, or a health services provider, we know you'll find something useful on our site.
+			</p>
+			<p>
+				Spoonie Living started when I saw a need for a resource-heavy (and filler-low) blog for folks with chronic illnesses and disabilities, and has since grown into a hub for folks with disabilities and those in their lives.
+			</p>
+			<p>
+				What qualifies a person as a spoonie? Oh boy, so many things! Mental illnesses, congenital conditions, intellectual disabilities, learning disorders... if something about your body (including your brain) is different, and makes it harder to get through your daily life, then congratulations: you're a spoonie. So, take a look around and see what grabs you!
+			</p>
+			<p>
+				Love and spoons,
+			</p>
+			<img src="/img/signature.png" height="50px">
+			<p>
+				<i>Editor Diane</i>
+			</p>
+			<br>
+			<p>
+				ps--Never heard the term "spoonie" before? Check out Christine Miserandino's <a href="http://www.butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/">Spoon Theory</a> to learn more.
+			</p>
+
+		</div>
+	</div>
+
+	<div id="sidebar">
+		<div class="col-xs-12 col-md-3">
+
+			<div class="side-item">
+				<h3>Follow us on social media</h3>
+				<ul>
+					<li class="favicon"><a href="http://www.facebook.com/spoonieliving"><img src="/img/favicons/facebook.png"></a></li>
+					<li class="favicon"><a href="http://www.twitter.com/spoonieliving"><img src="/img/favicons/twitter.png"></a></li>
+					<li class="favicon"><a href="http://blog.spoonieliving.com"><img src="/img/favicons/tumblr.png"></a></li>
+					<li class="favicon"><a href="http://www.pinterest.com/spoonieliving"><img src="/img/favicons/pinterest.png"></a></li>
+					<li class="favicon"><a href="blog.spoonie-living.com/rss"><img src="/img/favicons/rss.png"></a></li>
+				</ul>
+			</div>
+
+			<hr/>
+
+			<div class="side-item">
+				<h3>Join our mailing list</h3>
+				<p><i>We'll send monthly updates with all the newest and coolest info!</i></p>
+				<br>
+				<!-- Begin MailChimp Signup Form -->
+				<div id="mc_embed_signup">
+					<form action="//spoonieliving.us13.list-manage.com/subscribe/post?u=a5ae2fc11d0dc6e21ee2150f4&amp;id=96e0182470" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<div id="mc_embed_signup_scroll">
+							<div class="mc-field-group">
+								<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+								</label><br>
+								<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+							</div>
+							<div class="mc-field-group input-group">
+								<br>
+								I am a...
+
+								<ul><li><input type="checkbox" value="1" name="group[4709][1]" id="mce-group[4709]-4709-0"><label for="mce-group[4709]-4709-0">&nbsp;Patient&nbsp;&nbsp;<br></label></li>
+									<li><input type="checkbox" value="2" name="group[4709][2]" id="mce-group[4709]-4709-1"><label for="mce-group[4709]-4709-1">&nbsp;Provider</label></li>
+								</ul>
+							</div>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a5ae2fc11d0dc6e21ee2150f4_96e0182470" tabindex="-1" value=""></div>
+							<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"></div>
+							<!--TODO make this look like the rest of the damn site-->
+						</div>
+					</form>
+				</div>
+				<!--End mc_embed_signup-->
+			</div>
+
+
+		</div>
+	</div>
+</div>
+
+<hr/>
+
+<div class="row">
+	<div id="footer">
+		<div class="col-xs-12 col-md-12">
+			All opinions expressed on this site are our own and in no way influenced by outside sponsorship. No original content should be construed as medical advice.
+			<br>
+			<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Spoonie Living</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+			<!--
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+		-->
+		<br><br>
+	</div>
+</div>
+</div>
+
+
 </body>
 </html>
