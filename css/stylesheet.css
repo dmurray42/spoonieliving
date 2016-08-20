@@ -26,6 +26,7 @@ h1, h2, h3{
 }
 
 .container{
+	max-width:1000px;
 }
 
 #header {
@@ -34,30 +35,54 @@ h1, h2, h3{
 
 #header img{
 	width:100%;
+	margin-bottom:20px;
 }
 
 #navigation ul, #sidebar ul, #side-item ul {
 	list-style:none;
 }
 
+.navbar {
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.navbar-collapse {
+	padding-left:0px;
+}
+
 .nav-justified {
    border-collapse:separate;
-   border-spacing:20px;
 }
 
-.button, .active {
-	border:1px solid #DBA9A9;
-	border-radius:5px;
+.navbar-toggle {
 }
 
-.button a, .active a {
-	text-decoration:none;
-	font-size:large;
+.nav-item, .dropdown {
+	margin-left:10px;
+
 }
 
-.button a:hover, .active a{
-	background-color:#F5E9E9 !important;
-	color:#8C4646 !important;
+.pull-left {
+	margin-left:10px;
+}
+
+#menu-label {
+	font-size:20px;
+	margin-left:20px;
+}
+
+.nav-item, .dropdown a, .nav-item a {
+	font-size: 20px;
+	color:#000000 !important;
+}
+
+.nav-item a:hover, .dropdown a:hover{
+	color:#3B3B3B !important;
+}
+
+.dropdown-menu a {
+	font-size: 15px;
 }
 
 #content {
@@ -67,7 +92,8 @@ h1, h2, h3{
 #sidebar {
 }
 
-.side-item {
+.side-item ul{
+	padding-left:0px;
 }
 
 #sidebar li {
