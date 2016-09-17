@@ -1,4 +1,3 @@
-
 div {
 
 }
@@ -15,10 +14,16 @@ hr {
 a {
 	color:#8C4646;
 	text-decoration:none;
+	font-weight:bold;
 }
 
 h1, h2, h3{
 	color:#8C4646;
+}
+
+h1 a, h2 a, h3 a {
+	color:#8C4646;
+	text-decoration:none;
 }
 
 #page {
@@ -89,6 +94,10 @@ h1, h2, h3{
 
 }
 
+#posts {
+	border:solid, 1px, #D1D1D1;
+}
+
 #sidebar {
 }
 
@@ -113,4 +122,35 @@ form label {
 	text-align:center;
 	font-style:italic;
 	font-size:small;
+}
+
+
+/*I can't believe I have to write these classes*/
+
+.textwrap-left {
+	float:left;
+	margin:10px;
+}
+
+.textwrap-right {
+	float:right;
+	margin:10px;
+}
+
+.imageright {
+	float:left;
+	width:39%;
+}
+
+.textleft {
+	float:left;
+	width:59%;
+}
+
+.clearboth {
+	clear:both;
+}
+
+.fitdiv {
+	width:85%;
 }

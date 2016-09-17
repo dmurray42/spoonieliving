@@ -4,9 +4,10 @@ $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 include "$root/includes/top.php";
 ?>
 
-<meta name="Description" content="Spoonie Living homepage - welcome!">
 <title>Spoonie Living</title>
-<meta name="Keywords" content="">
+<meta name="Description" content="Disability and Chronic Illness Lifestyle">
+<meta name="Keywords" content="spoonie, chronic illness, disability, invisible illness, chronic pain, mental illness">
+
 
 <?php
 include "$root/includes/middle.php";
@@ -19,21 +20,39 @@ include "$root/includes/middle.php";
 				We're stoked that you've stopped by! Whether you're a patient, friend or family to one, a caregiver, or a health services provider, we know you'll find something useful on our site.
 			</p>
 			<p>
-				Spoonie Living started when I saw a need for a resource-heavy (and filler-low) blog for folks with chronic illnesses and disabilities, and has since grown into a hub for folks with disabilities and those in their lives.
+				Spoonie Living started when I saw a need for a no-filler, resource-heavy blog for folks with chronic illnesses and disabilities. So, take a look around and see what grabs you!
 			</p>
+			<br>
+			<div class="textleft">
+				<ul>
+
+					<p><li>New to sick kid life? Check out <a href="http://bit.ly/chronically-badass">Chronically Badass</a>, our zine for new spoonies!</li></p>
+					<br>
+					<p><li>Want to get straight to the resources? Pop on over to <a href="http://blog.spoonieliving.com">the blog</a>!</li></p>
+					<br>
+				</ul>
+			</div>
+				<div class="imageright">
+					<img src="/img/man.png" class="fitdiv" alt="Man with spoon">
+				</div>
+					<div class="clearboth"></div>
 			<p>
-				What qualifies a person as a spoonie? Oh boy, so many things! Mental illnesses, congenital conditions, intellectual disabilities, learning disorders... if something about your body (including your brain) is different, and makes it harder to get through your daily life, then congratulations: you're a spoonie. So, take a look around and see what grabs you!
+				Enjoy, friends!
 			</p>
+			<br>
 			<p>
 				Love and spoons,
 			</p>
 			<img src="/img/signature.png" height="50px">
 			<p>
-				<i>Editor Diane</i>
+				Diane
+				<br>
+				<i>Creator and Editor</i>
 			</p>
-			<br>
+
+<br>
 			<p>
-				ps--Never heard the term "spoonie" before? Check out Christine Miserandino's <a href="http://www.butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/">Spoon Theory</a> to learn more.
+				<i>p.s. Never heard the term "spoonie" before? Check out Christine Miserandino's <a href="http://www.butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/">Spoon Theory</a> to learn more.</i>
 			</p>
 
 			<?php

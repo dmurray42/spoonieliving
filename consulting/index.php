@@ -4,9 +4,9 @@ $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 include "$root/includes/top.php";
 ?>
 
-<meta name="Description" content="Patient advocacy and wellness consulting services from Spoonie Living">
 <title>Spoonie Living Consulting</title>
-<meta name="Keywords" content="KEYWORD1, KEYWORD2, KEYWORD">
+<meta name="Description" content="Patient advocacy and wellness consulting services from Spoonie Living">
+<meta name="Keywords" content="spoonie, chronic illness, disability, invisible illness, chronic pain, mental illness, patient advocacy, wellness, healthcare, diagnosis">
 
 <?php
 include "$root/includes/middle.php";

@@ -51,18 +51,26 @@
     <!--End mc_embed_signup-->
   </div>
 
+  <hr>
+
+  <div class="side-item">
+      <h3>Our Cohort</h3>
+      <a href="http://chronicillnessbloggers.com/"> <img src="/img/ciblogo.jpg"></a>
+    </div>
+
 
 </div>
 </div>
 </div>
+<br>
 
 <hr/>
 
 <div class="row">
 <div id="footer">
 <div class="col-xs-12 col-md-12">
-  All opinions expressed on this site are our own and in no way influenced by outside sponsorship. No original content should be construed as medical advice.
-  <br>
+  <p>All opinions expressed on this site are our own and in no way influenced by outside sponsorship.<br>
+  No original content should be construed as medical advice.</p>
   <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Spoonie Living</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
   <!--
     <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
