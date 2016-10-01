@@ -4,17 +4,34 @@
 <!--[if gt IE 9]><!--> <html> <!--<![endif]-->
 <head>
 
-  <!--Google Analytics Code-->
-  <script>
+  <!--Begin Top-->
+	<script>
+	document.createElement( "picture" );
+	</script>
+	<script src="code/picturefill.js" async></script>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Author" content="Diane Murray">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="/css/stylesheet.css">
+
+	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-75284256-1', 'auto');
-  ga('require', 'linkid');
+	ga('require', 'linkid');
   ga('send', 'pageview');
-  </script>
+
+</script>
+
+	<!--End Top-->
 
   <!-- Tumblr-specific --> <!--TODO: Clean this up-->
   {MobileAppHeaders}
@@ -23,7 +40,6 @@
   {block:Description}
   <meta name="description" content="{MetaDescription}">
   {/block:Description}
-
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="theme-color" content="#35465D">
@@ -134,27 +150,15 @@
   {CustomCSS}
   </style>
 
-  <!--Site-specific-->
- <script>
-	document.createElement( "picture" );
-	</script>
-	<script src="code/picturefill.js" async></script>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="Author" content="Diane Murray">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-	<link rel="stylesheet" type="text/css" href="http://www.spoonieliving.com/css/stylesheet.css">
 
 </head>
 
 <body data-urlencoded-name="{URLEncodedName}" class="{select:Layout}{block:IndexPage} index-page{/block:IndexPage}{block:PermalinkPage} permalink{/block:PermalinkPage}{block:LikesPage} likes-page{/block:LikesPage}{block:FollowingPage} following-page{/block:FollowingPage}{block:SearchPage} search-page{block:NoSearchResults} no-results{/block:NoSearchResults}{block:NoLikes} no-likes{/block:NoLikes}{block:NoPosts} no-posts{/block:NoPosts}{block:NoFollowing} no-following{/block:NoFollowing}{/block:SearchPage}{block:HideHeaderImage} no-header-image{/block:HideHeaderImage}{block:NoStretchHeaderImage} contain-header-image{/block:NoStretchHeaderImage}{block:IfRelatedPosts} display-related-posts{/block:IfRelatedPosts}">
 
-
-<div class="container">
+<!--Begin Middle-->
+<!--Remember to change image and link paths-->
+	<div class="container">
 
 		<div class="row">
 
@@ -162,7 +166,7 @@
 				<div class="col-xs-12 col-md-12">
 					<a href="http://www.spoonieliving.com/index.php">
 						<picture>
-							<source srcset="http://www.spoonieliving.com/img/header.png" media="(min-width: 800px)">
+							<source srcset="http://www.spoonieliving.com/img/header.png" media="(min-width: 800px)" alt="Spoonie Living">
 								<source srcset="http://www.spoonieliving.com/img/headermobile.png">
 									<img srcset="http://www.spoonieliving.com/img/headermobile.png" alt="Spoonie Living">
 								</picture>
@@ -190,10 +194,11 @@
 										<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<b class="caret"></b></a>
 
 										<ul class="dropdown-menu">
-											<li><a href="http://blog.spoonieliving.com/">Main</a></li>
+											<li><a href="http://blog.spoonieliving.com/">Blog Home</a></li>
 											<li><a href="http://blog.spoonieliving.com/tagged/advice">Advice</a></li>
 											<li><a href="http://blog.spoonieliving.com/tagged/reviews">Reviews</a></li>
 											<li><a href="http://blog.spoonieliving.com/tagged/diy">DIY</a></li>
+											<li><a href="http://blog.spoonieliving.com/tagged/fashion">Fashion</a></li>
 											<li><a href="http://blog.spoonieliving.com/ask">Ask</a></li>
 											<li><a href="http://blog.spoonieliving.com/submit">Submit</a></li>
 										</ul>
@@ -218,6 +223,9 @@
 				<div class="row">
 					<div id="content">
 						<div class="col-xs-12 col-md-9">
+
+
+  <!--End Middle-->
 
   <div class="app-nag">
     <div class="app-nag-header clearfix">
@@ -982,7 +990,7 @@
   {block:IndexPage}
   {block:Pagination}
   <div id="pagination">
-    {block:PreviousPage}
+     {block:PreviousPage}
     <a href="{PreviousPage}" class="previous" data-current-page="{CurrentPage}" data-total-pages="{TotalPages}">{lang:Previous}<span class="bg"></span></a>
     {/block:PreviousPage}
     {block:NextPage}
@@ -1127,6 +1135,9 @@ $(function() {
 {/block:IfSyntaxHighlighting}
 
 
+
+
+<!--Begin Bottom-->
 </div>
 </div>
 
@@ -1146,18 +1157,16 @@ $(function() {
 
   <hr/>
 
-  <div class="side-item">
-  <h3>Search the Site</h3>
-  <div class="search-wrapper">
-      <form action="/search" method="get" id="search">
-        <label class="search-field-label">
-          <input type="text" class="search-field" name="q" id="q" placeholder="Search Posts" value="{SearchQuery}" autocomplete="off">
-        </label>
-      </form>
-    </div>
+  <div>
+    <h3>Search</h3>
+    <form onsubmit="location.href='http://blog.spoonieliving.com/search/' + document.getElementById('myInput').value; return false;">
+      <input type="text" id="myInput" />
+      <input type="submit" />
+    </form>
   </div>
 
   <hr/>
+
 
   <div class="side-item">
     <h3>Mailing list</h3>
@@ -1196,26 +1205,29 @@ $(function() {
   <hr>
 
   <div class="side-item">
-    <h3>Our Cohort</h3>
-    <a href="http://chronicillnessbloggers.com/"></a> <img src="http://www.spoonieliving.com/img/ciblogo.jpg"></a>
-  </div>
+      <h3>Our Cohort</h3>
+      <a href="http://chronicillnessbloggers.com/"> <img src="http://www.spoonieliving.com/img/ciblogo.jpg"></a>
+    </div>
 
 
 </div>
 </div>
 </div>
+<br>
 
 <hr/>
 
 <div class="row">
 <div id="footer">
 <div class="col-xs-12 col-md-12">
-  All opinions expressed on this site are our own and in no way influenced by outside sponsorship. No original content should be construed as medical advice.
-  <br>
+  <p>All opinions expressed on this site are our own and in no way influenced by outside sponsorship.<br>
+  No original content should be construed as medical advice.</p>
   <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Spoonie Living</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
   <!--
     <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
   -->
+<!--End Bottom-->
+
   <br><br>
 </div>
 </div>
