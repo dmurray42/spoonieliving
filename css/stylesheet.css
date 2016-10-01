@@ -17,6 +17,27 @@ a {
 	font-weight:bold;
 }
 
+/* visited link */
+a:visited {
+    color:#662626;
+		text-decoration:none;
+		font-weight:bold;
+}
+
+/* mouse over link */
+a:hover {
+    color:#662626;
+		text-decoration:none;
+		font-weight:bold;
+}
+
+/* selected link */
+a:active {
+	color:#662626;
+	text-decoration:none;
+	font-weight:bold;
+}
+
 h1, h2, h3{
 	color:#8C4646;
 }

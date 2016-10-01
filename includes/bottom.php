@@ -17,6 +17,17 @@
 
   <hr/>
 
+  <div>
+    <h3>Search</h3>
+    <form onsubmit="location.href='http://blog.spoonieliving.com/search/' + document.getElementById('myInput').value; return false;">
+      <input type="text" id="myInput" />
+      <input type="submit" />
+    </form>
+  </div>
+
+  <hr/>
+
+
   <div class="side-item">
     <h3>Mailing list</h3>
     <p><i>We'll send monthly updates with all the newest and coolest info!</i></p>

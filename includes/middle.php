@@ -38,7 +38,7 @@
 										<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<b class="caret"></b></a>
 
 										<ul class="dropdown-menu">
-											<li><a href="http://blog.spoonieliving.com/">Main</a></li>
+											<li><a href="http://blog.spoonieliving.com/">Blog Home</a></li>
 											<li><a href="http://blog.spoonieliving.com/tagged/advice">Advice</a></li>
 											<li><a href="http://blog.spoonieliving.com/tagged/reviews">Reviews</a></li>
 											<li><a href="http://blog.spoonieliving.com/tagged/diy">DIY</a></li>
