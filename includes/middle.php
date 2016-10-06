@@ -8,7 +8,7 @@
 
 			<div id="header">
 				<div class="col-xs-12 col-md-12">
-					<a href="/index.php">
+					<a href="http://blog.spoonieliving.com">
 						<picture>
 							<source srcset="/img/header.png" media="(min-width: 800px)" alt="Spoonie Living">
 								<source srcset="/img/headermobile.png">
@@ -50,7 +50,7 @@
 										<li class="nav-item"><a href="/consulting/">Consulting</a></li>
 										<!-- <li class="nav-item"><a href="https://papaly.com/9/vHE5">Resources</a></li> -->
 										<li class="nav-item"><a href="https://gumroad.com/l/chronically-badass">Zine</a></li>
-										<li class="nav-item"><a href="https://itunes.apple.com/us/app/spoonie-living-app/id1101348762?mt=8">App</a></li>
+										<li class="nav-item"><a href="http://blog.spoonieliving.com/post/144817718323/image-description-top-banner-reads-introducing">App</a></li>
 										<!-- <li class="nav-item"><a href="/shop">Shop</a></li> -->
 									</ul>
 
