@@ -54,6 +54,14 @@
 										<!-- <li class="nav-item"><a href="/shop">Shop</a></li> -->
 									</ul>
 
+									<form class="navbar-form navbar-right" role="search" onsubmit="location.href='http://blog.spoonieliving.com/search/' + document.getElementById('myInput').value; return false;">
+								    <div class="form-group">
+								        <input type="text" class="form-control" placeholder="Search"
+												id="myInput">
+								    </div>
+								    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+									</form>
+
 								</div>
 
 
