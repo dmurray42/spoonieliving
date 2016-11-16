@@ -13,28 +13,33 @@
       <li class="favicon"><a href="http://www.pinterest.com/spoonieliving"><img src="/img/favicons/pinterest.png"></a></li>
       <li class="favicon"><a href="http://blog.spoonie-living.com/rss"><img src="/img/favicons/rss.png"></a></li>
     </ul>
+      <hr/>
   </div>
 
-  <hr/>
+
 
   <div class="side-item">
     <h3>Support the Editor</h3>
     <a href="http://www.patreon.com/dmurring"><img src="/img/patreon.png"></a>
     <br>
     <a href="https://digitaltipjar.com/dmurring"><img src="/img/tipjar.png"></a>
+      <hr/>
   </div>
 
-  <hr/>
-
-<!--
-  <hr/>
+<div class="hidden-xs hidden-sm">
   <div class="side-item">
-    <h3>Advertisement</h3>
-    <a href="http://www.google.com"><img src="/img/ad_sidebar.png"></a>
+    <!-- Project Wonderful Ad Box Code -->
+  <div id="pw_adbox_79495_4_0"></div>
+  <script type="text/javascript"></script>
+  <noscript><map name="admap79495" id="admap79495"><area href="http://www.projectwonderful.com/out_nojs.php?r=0&c=0&id=79495&type=4" shape="rect" coords="0,0,125,125" title="" alt="" target="_blank" /></map>
+  <table cellpadding="0" cellspacing="0" style="width:125px;border-style:none;background-color:#ffffff;"><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=79495&type=4" style="width:125px;height:125px;border-style:none;" usemap="#admap79495" alt="" /></td></tr><tr><td style="background-color:#ffffff;" colspan="1"><center><a style="font-size:10px;color:#0000ff;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=79495&type=4" target="_blank">Ads by Project Wonderful!  Your ad here, right now: $0</a></center></td></tr></table>
+  </noscript>
+  <!-- End Project Wonderful Ad Box Code -->
+    <hr/>
   </div>
+</div>
 
-  <hr/>
--->
+
 
   <div class="side-item">
       <h3>Our Cohort</h3>
