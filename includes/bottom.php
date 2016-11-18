@@ -16,8 +16,6 @@
       <hr/>
   </div>
 
-
-
   <div class="side-item">
     <h3>Support the Editor</h3>
     <a href="http://www.patreon.com/dmurring"><img src="/img/patreon.png"></a>
@@ -38,8 +36,6 @@
     <hr/>
   </div>
 </div>
-
-
 
   <div class="side-item">
       <h3>Our Cohort</h3>
