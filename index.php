@@ -43,10 +43,8 @@ include "$root/includes/middle.php";
 			<p>
 				Love and spoons,
 			</p>
-			<img src="/img/signature.png" height="50px">
+			<a href="http://www.dmurring.com"><img src="/img/name.png" alt="Diane Murray" height="30px"></a>
 			<p>
-				Diane
-				<br>
 				<i>Creator and Editor</i>
 			</p>
 
