@@ -1,3 +1,7 @@
+//TODO: make notes
+//TODO: refactor for consistency (ex. #clearboth ==> #clear-both)
+//TODO: break out little fixes that can be reused into their own stylesheet for reuse; include dmurring css items
+
 div {
 
 }
@@ -38,8 +42,12 @@ a:active {
 	font-weight:bold;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4{
 	color:#8C4646;
+}
+
+h4 {
+	padding-top:5px;
 }
 
 h1 a, h2 a, h3 a {
@@ -121,6 +129,10 @@ hr {
 
 }
 
+#section {
+	padding-bottom:10px;
+}
+
 #posts {
 	border:solid, 1px, #D1D1D1;
 }
@@ -152,16 +164,16 @@ form label {
 }
 
 
-/*I can't believe I have to write these classes*/
+/*Classes folks really shouldn't have to write*/
 
 .textwrap-left {
 	float:left;
-	margin:10px;
+	margin:0px 10px 10px 0px;
 }
 
 .textwrap-right {
 	float:right;
-	margin:10px;
+	margin:0px 0px 10px 10px;
 }
 
 .imageright {
@@ -180,4 +192,8 @@ form label {
 
 .fitdiv {
 	width:85%;
+}
+
+.thin-border {
+	border: 2px solid #000000;
 }

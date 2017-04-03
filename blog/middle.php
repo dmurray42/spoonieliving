@@ -36,7 +36,7 @@
 										<ul class="dropdown-menu">
 											<li><a href="http://blog.spoonieliving.com/">Blog Home</a></li>
 											<li><a href="http://blog.spoonieliving.com/tagged/advice">Advice</a></li>
-											<li><a href="http://blog.spoonieliving.com/tagged/reviews">Reviews</a></li>
+											<li><a href="http://blog.spoonieliving.com/tagged/review">Reviews</a></li>
 											<li><a href="http://blog.spoonieliving.com/tagged/diy">DIY</a></li>
 											<li><a href="http://blog.spoonieliving.com/tagged/fashion">Fashion</a></li>
 											<li><a href="http://blog.spoonieliving.com/ask">Ask</a></li>
