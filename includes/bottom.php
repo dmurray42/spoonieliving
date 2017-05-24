@@ -12,7 +12,7 @@
         <li class="favicon"><a href="http://www.pinterest.com/spoonieliving"><img src="/img/favicons/pinterest.png"></a></li>
         <li class="favicon"><a href="http://blog.spoonie-living.com/rss"><img src="/img/favicons/rss.png"></a></li>
       </ul>
-      <a class="email-btn" href="http://eepurl.com/b4tg45">Get updates by email</a>
+      <a class="email-btn" href="http://eepurl.com/b4tg45" target="_blank">Get updates by email</a>
 
       <hr/>
     </div>
@@ -50,8 +50,8 @@
 
 <div id="bottom-bar">
 
-  <!-- This could be nice to have if I could get the darn thing to center -->
-  <div class="separator-decoration"><img src="/img/decoration2.png" alt="decoration" width="75px"></div>
+  <!-- This could be nice to have if I could get the darn thing to center
+  <div class="separator-decoration"><img src="/img/decoration2.png" alt="decoration" width="75px"></div> -->
 
 <div class="col-xs-12 col-md-4">
   <h3>Give the editor some love</h3>
@@ -85,7 +85,7 @@
   <script type=text/javascript>FollowButton.initialize();</script>
   <script>var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-97144-8"]);_gaq.push(["_setAllowLinker",true]);_gaq.push(["_setDomainName","tumblr.com"]);_gaq.push(["_trackPageview","/v2/follow_button.html"]);(function(){var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)})();(function(d,e,j,h,f,c,b){d.GoogleAnalyticsObject=f;d[f]=d[f]||function(){(d[f].q=d[f].q||[]).push(arguments)},d[f].l=1*new Date();c=e.createElement(j),b=e.getElementsByTagName(j)[0];c.async=1;c.src=h;b.parentNode.insertBefore(c,b)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-97144-14","tumblr.com",{allowLinker:true,sampleRate:0.7});ga("send","pageview","/v2/follow_button.html");</script>
   <br><br>
-  <a class="email-btn" href="http://eepurl.com/b4tg45">Get updates by email</a>
+  <a class="email-btn" href="http://eepurl.com/b4tg45" target="_blank">Get updates by email</a>
 </div>
 </div>
 
