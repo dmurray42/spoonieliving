@@ -1,6 +1,14 @@
 </head>
 
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=14386828201";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 	<div class="container">
 
@@ -78,6 +86,7 @@
 						<div class="col-xs-12 col-md-9">
 							<div class="hidden-lg hidden-md">
 								<center>
+									<h5>Advertisement</h5>
 									<!-- Project Wonderful Ad Box Code -->
 	<div id="pw_adbox_79494_6_0"></div>
 	<script type="text/javascript"></script>
@@ -86,4 +95,5 @@
 	</noscript>
 	<!-- End Project Wonderful Ad Box Code -->
 	</center>
-					</div>
+	<br>
+</div>

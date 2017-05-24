@@ -42,7 +42,7 @@ a:active {
 	font-weight:bold;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5{
 	color:#8C4646;
 }
 
@@ -103,10 +103,6 @@ hr {
 
 }
 
-.pull-left {
-	margin-left:10px;
-}
-
 #menu-label {
 	font-size:20px;
 	margin-left:20px;
@@ -137,6 +133,16 @@ hr {
 	border:solid, 1px, #D1D1D1;
 }
 
+.share-list {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+.share-list li {
+	display:inline;
+}
+
 #sidebar {
 }
 
@@ -153,8 +159,33 @@ hr {
 	height:35px;
 }
 
-form label {
-	font-weight:normal;
+.separator-decoration {
+	vertical-align:center;
+}
+
+.email-btn {
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff !important;
+  font-size: 17px !important;
+  background: #B07171;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+
+.email-btn-sm {
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff !important;
+  font-size: 12px !important;
+  background: #B07171;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+	font-weight: normal !important;
+}
+
+.email-btn:hover, .email-btn-sm:hover {
+  background: #8C4646 !important;
 }
 
 #footer {
@@ -186,8 +217,20 @@ form label {
 	width:59%;
 }
 
+.textright {
+	text-align:right;
+}
+
+.pull-left {
+	margin-left:10px;
+}
+
 .clearboth {
 	clear:both;
+}
+
+.center {
+	align-items:center;
 }
 
 .fitdiv {
@@ -195,5 +238,5 @@ form label {
 }
 
 .thin-border {
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 }

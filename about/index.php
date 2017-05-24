@@ -25,7 +25,7 @@ include "$root/includes/middle.php";
 
 <div id="section">
 	<h3>The Editor</h3>
-	<img class="textwrap-right" class="thin-border" src="/img/headshot.png" alt="Diane Murray" width="150">
+	<img class="textwrap-right" src="/img/headshot.png" alt="Diane Murray" width="150">
 	<p>Spoonie Living is curated by <a href="http://www.dmurring.com">Diane Murray</a>, a spoonie with a passion for creating resources on topics of all kinds. She lives in Portland, OR, with two partners, four cats, and a cute little croissant-fueled <a href="https://en.wiktionary.org/wiki/nibling">nibling</a>.</p>
 	<p>Diane has a not-fully-diagnosed <a href="https://en.wikipedia.org/wiki/Connective_tissue_disease">connective tissue disorder</a>, <a href="https://en.wikipedia.org/wiki/Postural_orthostatic_tachycardia_syndrome">Postural Orthostatic Tachycardia Syndrome</a>, <a href="https://en.wikipedia.org/wiki/Chronic_fatigue_syndrome">Systemic Exertion Intolerance Disease/Chronic Fatigue Syndrome</a>, <a href="https://en.wikipedia.org/wiki/Small_intestinal_bacterial_overgrowth">Small Intestine Bacterial Overgrowth</a>, and <a href="https://en.wikipedia.org/wiki/Cyclothymia">Cyclothymia</a>, and expects her collection to only grow as time goes on.</p>
 <div class="clearboth">
