@@ -1,7 +1,7 @@
 <?php
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 
-include "$root/includes/top.php";
+include "$root/includes/head.php";
 ?>
 
 <title>Spoonie Planner & Medical Diary Set Giveaway</title>
@@ -9,7 +9,7 @@ include "$root/includes/top.php";
 <meta name="Keywords" content="spoonie, chronic illness, disability, invisible illness, chronic pain, mental illness, patient advocacy, wellness, healthcare, diagnosis">
 
 <?php
-include "$root/includes/middle.php";
+include "$root/includes/pre.php";
 ?>
 
 <h1>Spoonie Planner & Medical Diary Set Giveaway</h1>
@@ -29,5 +29,5 @@ include "$root/includes/middle.php";
   </ul>
 
 	<?php
-include "$root/includes/bottom.php";
+include "$root/includes/post.php";
 ?>

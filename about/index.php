@@ -1,7 +1,7 @@
 <?php
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 
-include "$root/includes/top.php";
+include "$root/includes/head.php";
 ?>
 
 <title>Spoonie Living</title>
@@ -10,7 +10,7 @@ include "$root/includes/top.php";
 
 
 <?php
-include "$root/includes/middle.php";
+include "$root/includes/pre.php";
 ?>
 
 <div id="section">
@@ -19,7 +19,7 @@ include "$root/includes/middle.php";
 	<img class="textwrap-left" src="/img/baby.png" alt="Baby with spoon" width="200">
 	<p>Spoonie Living is a lifestyle blog à la Martha Stewart Living for folks with chronic illness and/or disabilities who aren’t going to let their health problems keep them from living a fantastic life. Here you’ll find <a href="www.butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/">spoonie</a>-specific advice, products, reviews, as well as life hacks and awesome mods of all sorts of medical devices&mdash;so <a href="http://blog.spoonieliving.com">have a look</a> and start living the spoonie life with us!</p>
 	<div class="clearboth">
-	<p><i>Have a blog of your own and want to write or solicit a guest post? Have a product you’d like us to advertise or review? Want to collaborate on a project? Drop us a line&mdash;we love making new friends!
+	<p><i>Have a blog of your own and want to write or solicit a guest post? Have a product you’d like us to advertise or review? Want to collaborate on a project? <a href="mailto:contact@spoonieliving.com">Drop us a line</a>&mdash;we love making new friends!
 	</i></p></div>
 </div>
 
@@ -36,7 +36,7 @@ include "$root/includes/middle.php";
 	<h3>Inclusion &amp; Social Justice</h3>
 	<p>We know what oppression feels like firsthand, and make it our goal to keep this blog a safe space for all marginalized groups&mdash;chronically ill and otherwise. Spoonie Living practices compassionate intersectional feminism by avoiding racist, appropriative, cissexist, and other -ist language in our original content, and tagging for the same in the content of others.</p>
 
-	<p>We acknowledge that no one can be completely unproblematic all the time, so if you see something we’ve overlooked, or simply have a personal trigger you’d like us to tag for, please feel free to check in via <a href="mailto:contact@spoonieliving.com"email</a>, <a href="http://www.twitter.com/spoonieliving">Twitter</a>, or <a href="http://www.facebook.com">Facebook</a>. We’ll always listen and take appropriate action.</p>
+	<p>We acknowledge that no one can be completely unproblematic all the time, so if you see something we’ve overlooked, or simply have a personal trigger you’d like us to tag for, please feel free to check in via <a href="mailto:contact@spoonieliving.com">email</a>, <a href="http://www.twitter.com/spoonieliving">Twitter</a>, or <a href="http://www.facebook.com">Facebook</a>. We’ll always listen and take appropriate action.</p>
 </div>
 
 <div id="section">
@@ -52,7 +52,7 @@ include "$root/includes/middle.php";
 
 <h4><font color="black">💊</font> Are you looking for submissions?</h4>
 
-<p>You bet! Got something great? <a href="http://blog.spoonieliving.com/submit">Submit it</a>, @ us on a post in Tumblr, or <a href="mailto:contact@spoonieliving.com">email us!</a></p>
+<p>You bet! Got something great? <a href="http://blog.spoonieliving.com/submit">Submit it</a>, include @spoonie-living on a Tumblr post, or <a href="mailto:contact@spoonieliving.com">email us!</a></p>
 </div>
 
 <div id="section">
@@ -60,16 +60,16 @@ include "$root/includes/middle.php";
 
 <p>You should be aware that this blog accepts forms of cash advertising, sponsorship, paid insertions or other forms of compensation. We are sometimes compensated to provide opinion on products, services, websites, and various other topics.</p>
 
-	<p>The compensation received will never influence the content, topics or posts made in this blog. Any advertisements will be clearly identified as such, as will sponsored posts and reviews. We use the tags #sponsored and #advertisement so that readers through Tumblr may easily opt out of seeing these posts.</p>
+	<p>The compensation received will never influence the content, topics or posts made in this blog. Any advertisements will be clearly identified as such, as will sponsored posts and reviews. We use the tags #sponsored and #advertisement so that readers can easily filter to opt out of seeing these posts.</p>
 
-	<p>The views and opinions expressed on this blog are purely our own. Any product claim, statistic, quote or other representation about a product or service should be verified with the manufacturer, provider or party in question. This blog does not contain any content which might present a conflict of interest.</p>
+	<p>The views and opinions expressed on this blog are purely our own. Any product claim, statistic, quote or other representation about a product or service should be verified with the manufacturer, provider, or party in question. This blog does not contain any content which might present a conflict of interest.</p>
 
-	<p><b>We choose to promote only products that are in line with our blog's values and we feel will truly benefit our readers. In our reviews, we can assure you that we’ll always give our honest opinions, findings, beliefs, or experiences on those topics or products.</b> This does not apply to our Project Wonderful ad bars, as we do not actively choose the content; however, if you see any objectionable advertisements, please let us know and we'll be glad to remove that purchaser.</p>
+	<p><b>We choose to promote only products that are in line with our blog's values and we feel will truly benefit our readers. In our reviews, we can assure you that we’ll always give our honest opinions, findings, beliefs, or experiences on those topics or products.</b> This does not apply to our Project Wonderful ad bars, as we do not actively choose the content; however, if you see any objectionable advertisements, please let us know and we'll be glad to remove that buyer.</p>
 
 	<p>Please feel free to <a href="mailto:contact@spoonieliving.com">contact us</a> with any additional questions or concerns about this blog!
 	</p>
 </div>
 
 <?php
-include "$root/includes/bottom.php";
+include "$root/includes/post.php";
 ?>

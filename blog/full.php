@@ -180,9 +180,9 @@
               <div class="col-xs-12 col-md-12">
                 <a href="http://blog.spoonieliving.com">
                   <picture>
-                    <source srcset="http://www.spoonieliving.com/img/header.png" media="(min-width: 800px)" alt="Spoonie Living">
-                      <source srcset="http://www.spoonieliving.com/img/headermobile.png">
-                        <img srcset="http://www.spoonieliving.com/img/headermobile.png" alt="Spoonie Living">
+                    <source srcset="../img/header.png" media="(min-width: 800px)" alt="Spoonie Living">
+                      <source srcset="../img/headermobile.png">
+                        <img srcset="../img/headermobile.png" alt="Spoonie Living">
                       </picture>
                     </a>
                   </div>
@@ -217,11 +217,11 @@
                               <li><a href="http://blog.spoonieliving.com/submit">Submit</a></li>
                             </ul>
                           </li>
-                          <li class="nav-item"><a href="http://www.spoonieliving.com/consulting/">Consulting</a></li>
+                          <li class="nav-item"><a href="../consulting/">Consulting</a></li>
                           <!-- <li class="nav-item"><a href="https://papaly.com/9/vHE5">Resources</a></li> -->
                           <li class="nav-item"><a href="https://gumroad.com/l/chronically-badass">Zine</a></li>
                           <li class="nav-item"><a href="http://blog.spoonieliving.com/post/144817718323/image-description-top-banner-reads-introducing">App</a></li>
-                          <!-- <li class="nav-item"><a href="http://www.spoonieliving.com/shop">Shop</a></li> -->
+                          <!-- <li class="nav-item"><a href="../shop">Shop</a></li> -->
                         </ul>
 
                         <form class="navbar-form navbar-right" role="search" onsubmit="location.href='http://blog.spoonieliving.com/search/' + document.getElementById('myInput').value; return false;">
@@ -1081,20 +1081,20 @@
                   <div class="side-item">
                     <h3>Follow Us</h3>
                     <ul>
-                      <li class="favicon"><a href="http://www.facebook.com/spoonieliving"><img src="http://www.spoonieliving.com/img/favicons/facebook.png"></a></li>
-                      <li class="favicon"><a href="http://www.twitter.com/spoonieliving"><img src="http://www.spoonieliving.com/img/favicons/twitter.png"></a></li>
-                      <li class="favicon"><a href="http://blog.spoonieliving.com"><img src="http://www.spoonieliving.com/img/favicons/tumblr.png"></a></li>
-                      <li class="favicon"><a href="http://www.pinterest.com/spoonieliving"><img src="http://www.spoonieliving.com/img/favicons/pinterest.png"></a></li>
-                      <li class="favicon"><a href="http://blog.spoonie-living.com/rss"><img src="http://www.spoonieliving.com/img/favicons/rss.png"></a></li>
+                      <li class="favicon"><a href="http://www.facebook.com/spoonieliving"><img src="../img/favicons/facebook.png"></a></li>
+                      <li class="favicon"><a href="http://www.twitter.com/spoonieliving"><img src="../img/favicons/twitter.png"></a></li>
+                      <li class="favicon"><a href="http://blog.spoonieliving.com"><img src="../img/favicons/tumblr.png"></a></li>
+                      <li class="favicon"><a href="http://www.pinterest.com/spoonieliving"><img src="../img/favicons/pinterest.png"></a></li>
+                      <li class="favicon"><a href="http://blog.spoonie-living.com/rss"><img src="../img/favicons/rss.png"></a></li>
                     </ul>
                     <hr/>
                   </div>
 
                   <div class="side-item">
                     <h3>Support the Editor</h3>
-                    <a href="http://www.patreon.com/dmurring"><img src="http://www.spoonieliving.com/img/patreon.png"></a>
+                    <a href="http://www.patreon.com/dmurring"><img src="../img/patreon.png"></a>
                     <br>
-                    <a href="https://digitaltipjar.com/dmurring"><img src="http://www.spoonieliving.com/img/tipjar.png"></a>
+                    <a href="https://digitaltipjar.com/dmurring"><img src="../img/tipjar.png"></a>
                     <hr/>
                   </div>
 
@@ -1113,7 +1113,7 @@
 
                   <div class="side-item">
                     <h3>Our Cohort</h3>
-                    <a href="http://chronicillnessbloggers.com/"> <img src="http://www.spoonieliving.com/img/ciblogo.jpg"></a>
+                    <a href="http://chronicillnessbloggers.com/"> <img src="../img/ciblogo.jpg"></a>
                   </div>
 
 

@@ -7,20 +7,20 @@
   <div class="side-item">
     <h3>Follow Us</h3>
     <ul>
-      <li class="favicon"><a href="http://www.facebook.com/spoonieliving"><img src="http://www.spoonieliving.com/img/favicons/facebook.png"></a></li>
-      <li class="favicon"><a href="http://www.twitter.com/spoonieliving"><img src="http://www.spoonieliving.com/img/favicons/twitter.png"></a></li>
-      <li class="favicon"><a href="http://blog.spoonieliving.com"><img src="http://www.spoonieliving.com/img/favicons/tumblr.png"></a></li>
-      <li class="favicon"><a href="http://www.pinterest.com/spoonieliving"><img src="http://www.spoonieliving.com/img/favicons/pinterest.png"></a></li>
-      <li class="favicon"><a href="http://blog.spoonie-living.com/rss"><img src="http://www.spoonieliving.com/img/favicons/rss.png"></a></li>
+      <li class="favicon"><a href="http://www.facebook.com/spoonieliving"><img src="../img/favicons/facebook.png"></a></li>
+      <li class="favicon"><a href="http://www.twitter.com/spoonieliving"><img src="../img/favicons/twitter.png"></a></li>
+      <li class="favicon"><a href="http://blog.spoonieliving.com"><img src="../img/favicons/tumblr.png"></a></li>
+      <li class="favicon"><a href="http://www.pinterest.com/spoonieliving"><img src="../img/favicons/pinterest.png"></a></li>
+      <li class="favicon"><a href="http://blog.spoonie-living.com/rss"><img src="../img/favicons/rss.png"></a></li>
     </ul>
       <hr/>
   </div>
 
   <div class="side-item">
     <h3>Support the Editor</h3>
-    <a href="http://www.patreon.com/dmurring"><img src="http://www.spoonieliving.com/img/patreon.png"></a>
+    <a href="http://www.patreon.com/dmurring"><img src="../img/patreon.png"></a>
     <br>
-    <a href="https://digitaltipjar.com/dmurring"><img src="http://www.spoonieliving.com/img/tipjar.png"></a>
+    <a href="https://digitaltipjar.com/dmurring"><img src="../img/tipjar.png"></a>
       <hr/>
   </div>
 
@@ -39,7 +39,7 @@
 
   <div class="side-item">
       <h3>Our Cohort</h3>
-      <a href="http://chronicillnessbloggers.com/"> <img src="http://www.spoonieliving.com/img/ciblogo.jpg"></a>
+      <a href="http://chronicillnessbloggers.com/"> <img src="../img/ciblogo.jpg"></a>
     </div>
 
 

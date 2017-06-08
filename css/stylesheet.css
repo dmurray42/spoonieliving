@@ -61,6 +61,34 @@ hr {
 	color:#e8d7d7;
 }
 
+
+#scroll-top-btn {
+	border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff !important;
+  font-size: 17px !important;
+  background: #B07171;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+	opacity:0.7;
+	/*display:none;*/
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	color: white; /* Text color */
+	padding: 15px; /* Some padding */
+	border-radius: 10px; /* Rounded corners */
+}
+
+#scroll-top-btn:hover {
+	background: #8C4646 !important;
+	text-decoration:none;
+}
+
+
 #page {
 
 }
@@ -186,6 +214,7 @@ hr {
 
 .email-btn:hover, .email-btn-sm:hover {
   background: #8C4646 !important;
+	text-decoration:none;
 }
 
 #footer {
@@ -239,4 +268,9 @@ hr {
 
 .thin-border {
 	border: 1px solid #000000;
+}
+
+.squish {
+	padding-top:auto;
+	padding-bottom:auto;
 }

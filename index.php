@@ -1,7 +1,7 @@
 <?php
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 
-include "$root/includes/top.php";
+include "$root/includes/head.php";
 ?>
 
 <title>Spoonie Living</title>
@@ -10,7 +10,7 @@ include "$root/includes/top.php";
 
 
 <?php
-include "$root/includes/middle.php";
+include "$root/includes/pre.php";
 ?>
 
 			<h1>Welcome To Spoonie Living!</h1>
@@ -54,5 +54,5 @@ include "$root/includes/middle.php";
 			</p>
 
 			<?php
-			include "$root/includes/bottom.php";
+			include "$root/includes/post.php";
 			?>
