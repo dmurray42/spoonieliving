@@ -1,23 +1,33 @@
+<!-- Template: head.php -->
 <?php
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
-
 include "$root/includes/head.php";
 ?>
 
-<title>###</title>
-<meta name="Description" content="###">
-<meta name="Keywords" content="###">
+<!-- Metadata -->
+<title> </title>
+<meta name="Description" content=" ">
+<meta name="Keywords" content=" ">
 
+<!-- Template: pre.php -->
 <?php
 include "$root/includes/pre.php";
 ?>
 
-<h1>###</h1>
-<hr>
-<br>
+<!-- Content -->
+<div>
 
-<p>###</p>
+	<!-- Content header -->
+	<h1> </h1>
+	<hr>
+	<br>
 
-	<?php
+	<!-- Main content -->
+	<p> </p>
+
+</div> <!-- End content -->
+
+<!-- Template: post.php -->
+<?php
 include "$root/includes/post.php";
 ?>

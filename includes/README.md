@@ -1,11 +1,10 @@
-These files contain the template for the site and are called with PHP includes.
+**These files contain the template for the site and are called with PHP includes.**
 
-Example:
+**Example**
 
 <!-- Initialize and call the first file -->
   <?php
   $root = realpath($_SERVER["DOCUMENT_ROOT"]);
-
   include "$root/includes/head.php";
   ?>
 
@@ -14,4 +13,4 @@ Example:
   include "$root/includes/pre.php";
   ?>
 
-See /includes/template.php for a basic page without content.
+**See /includes/template.php for a basic page without content.**

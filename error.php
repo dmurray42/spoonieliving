@@ -1,4 +1,18 @@
-<div class="container squish">
+<!-- TODO: I think this needs some sort of activation on my live server -->
+
+<?php
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+include "$root/includes/head.php";
+?>
+
+<title>Spoonie Living - Error</title>
+<meta name="Description" content="Error page for SpoonieLiving.com domain">
+
+</head>
+
+<body>
+
+<div class="container">
 
   <div class="row">
 
@@ -32,3 +46,7 @@
     </div>
   </div>
 </div>
+
+</body>
+
+</html>

@@ -1,2 +1,0 @@
-# spoonieliving
-Spoonie Living
