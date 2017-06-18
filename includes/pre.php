@@ -65,10 +65,14 @@
 											<li><a href="http://blog.spoonieliving.com/ask">Ask</a></li>
 											<li><a href="http://blog.spoonieliving.com/submit">Submit</a></li>
 										</ul>
+
 									</li> <!-- End blog dropdown -->
 
 									<li class="nav-item"><a href="https://gumroad.com/l/chronically-badass">Zine</a></li>
+
 									<li class="nav-item"><a href="http://blog.spoonieliving.com/post/144817718323/image-description-top-banner-reads-introducing">App</a></li>
+
+									<li class="nav-item"><a href="/featured">Featured Blogs</a></li>
 
 								</ul>
 
