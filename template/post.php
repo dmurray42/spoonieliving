@@ -1,4 +1,4 @@
-<!-- This file is part of the site's template; see /includes/README.md for more information -->
+<!-- This file is part of the site's template; see /template/README.md for more information -->
 
 </div> <!-- End column from pre.php -->
 </div> <!-- End content from pre.php -->
@@ -7,7 +7,7 @@
 <div id="sidebar">
 <div class="col-xs-12 col-md-3">
 
-<!-- Social links -->
+<!-- Follow Us -->
 <div class="side-item">
   <h3>Follow Us</h3>
   <ul>
@@ -22,33 +22,37 @@
   <hr/>
 </div>
 
-<!-- Patreon & tip jar -->
+<!-- Write for Us -->
 <div class="side-item">
-  <h3>Support the Editor</h3>
-  <a href="http://www.patreon.com/dmurring"><img src="../img/patreon.png" alt="Patreon" width="100px"></a>&emsp;
-  <a href="https://digitaltipjar.com/dmurring"><img src="../img/tipjar.png" alt="Tip Jar" width="100px"></a>
+  <h3>Write for Us</h3>
+  Spoonie Living is a community effort! Write for us and more&mdash;<a href="http://blog.spoonieliving.com/post/163931719013/want-to-write-for-spoonie-living">contributor info here</a>.
   <hr/>
 </div>
 
-<!-- Desktop-only ad box -->
+<!-- Advertisement (desktop) -->
 <div class="hidden-xs hidden-sm">
   <div class="side-item">
     <h3>Advertisement</h3>
 
-    <!-- Project Wonderful Ad Box Code -->
-    <!-- Cannot be modified -->
-    <div id="pw_adbox_79495_4_0"></div>
-    <script type="text/javascript"></script>
-    <noscript><map name="admap79495" id="admap79495"><area href="http://www.projectwonderful.com/out_nojs.php?r=0&c=0&id=79495&type=4" shape="rect" coords="0,0,125,125" title="" alt="" target="_blank" rel="noopener noreferrer" /></map>
-      <table cellpadding="0" cellspacing="0" style="width:125px;border-style:none;background-color:#ffffff;"><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=79495&type=4" style="width:125px;height:125px;border-style:none;" usemap="#admap79495" alt="" /></td></tr><tr><td style="background-color:#ffffff;" colspan="1"><center><a style="font-size:10px;color:#8C4646;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=79495&type=4&tag=117806" target="_blank">Ads by Project Wonderful!  Your ad could be here, right now.</a></center></td></tr></table>
-    </noscript>
+    <!--TODO: Actually have an ad here-->
+
+    <h6>
+    <a href="mailto:contact@spoonieliving.com">
+    Report a bad ad</a></h6>
 
     <hr/>
   </div>
+</div> <!-- End Advertisement (desktop) -->
+
+<!-- Support the Editor -->
+<div class="side-item">
+  <h3>Support the Editor</h3>
+  <a href="http://www.patreon.com/dmurring"><img src="../img/patreon.png" alt="Patreon" width="100px"></a>&emsp;
+  <a href="https://www.paypal.me/dmurring"><img src="../img/paypalme.png" alt="PayPal.me" width="100px"></a>
+  <hr/>
 </div>
 
-<!-- Groups we're part of -->
-<!-- TODO: so lonely! Find more friends -->
+<!-- Our Cohort -->
 <div class="side-item">
   <h3>Our Cohort</h3>
   <a href="http://chronicillnessbloggers.com/"> <img src="../img/ciblogo.jpg"></a>
@@ -59,10 +63,10 @@
 </div> <!-- End row -->
 
 <!-- Bottom bar -->
-<div id="bottom-bar">
+<div id="bottom-bar" class="hidden-xs hidden-sm">
 
 <!-- Separator decoration -->
-<!-- TODO: Figure out how to center -->
+<!-- TODO (medium priority - incomplete): Figure out how to center this -->
 <!-- <div class="separator-decoration"><img src="../img/decoration2.png" alt="decoration" width="75px"></div> -->
 
 <!-- Editor info and Patreon/tip jar-->
@@ -72,7 +76,7 @@
 <div class="pull-left">
 <a href="http://www.patreon.com/dmurring"><img src="../img/patreon.png" alt="Patreon"></a>
 <br>
-<a href="https://digitaltipjar.com/dmurring"><img src="../img/tipjar.png" alt="Tip Jar"></a>
+<a href="https://www.paypal.me/dmurring"><img src="../img/paypalme.png" alt="PayPal.me"></a>
 </div>
 
 <div>
@@ -97,7 +101,7 @@
 <div class="fb-follow" data-href="https://www.facebook.com/spoonieliving" data-layout="button_count" data-size="large" data-show-faces="false"></div>
 
 <!-- Tumblr -->
-<!-- TODO: As in head.php, make this less of a huge mess  -->
+<!-- TODO (low priority): As in head.php, simplify if possible  -->
 <a href=https://www.tumblr.com/register id=follow-button class="blue follow" target=_new>
 <div class=inner>
   <div class=logo-container>
@@ -140,6 +144,41 @@
 </div> <!-- End footer -->
 </div> <!-- End row -->
 </div> <!-- End container from pre.php -->
+
+<!--Scroll to top button-->
+<a id="scroll-top-btn" href="#" class="btn btn-primary btn-lg scroll-top-btn"
+  role="button" title="Back to Top" data-toggle="tooltip" data-placement="top">
+  <span class="glyphicon glyphicon-chevron-up"></span>
+</a>
+
+<!--TODO: Add ability to hide this banner-->
+<!-- Mobile ad banner -->
+<div id="mobile-ad-banner" class="hidden-lg hidden-md">
+  <center>
+    <a href="mailto:contact@spoonieliving.com" style="font-size:10px;color:#8C4646;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;">
+    Report a bad ad</a>
+
+    <!-- Project Wonderful Ad Box Code -->
+    <!-- Cannot be modified -->
+    <div id="pw_adbox_79494_6_0"></div>
+    <script type="text/javascript"></script>
+    <noscript><map name="admap79494" id="admap79494"><area href="http://www.projectwonderful.com/out_nojs.php?r=0&c=0&id=79494&type=6" shape="rect" coords="0,0,234,60" title="" alt="" target="_blank" rel="noopener noreferrer" /></map>
+      <table cellpadding="0" cellspacing="0" style="width:234px;border-style:none;background-color:#ffffff;"><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=79494&type=6" style="width:234px;height:60px;border-style:none;" usemap="#admap79494" alt="" /></td></tr><tr><td style="background-color:#ffffff;" colspan="1"><center><a style="font-size:10px;color:#8C4646;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=79494&type=6&tag=117806" target="_blank">Ads by Project Wonderful!  Your ad could be here, right now.</a></center></td></tr></table>
+    </noscript>
+
+</div> <!-- End mobile ad banner -->
+
+<!--Close ad button -->
+<!--TODO: Make this button work-->
+<div id="hide-banner" class="hidden-lg hidden-md">
+  <a id="hide-banner-btn" href="#" class="btn btn-primary btn-xs"
+    role="button" title="Hide banner" data-toggle="tooltip" data-placement="top">
+    <span class="glyphicon glyphicon-remove" style:"font-size:5px"></span>
+  </a>
+</div>
+
+<!--Javascript for the buttons-->
+<script src="../js/custom.js"></script>
 
 </body>
 </html>

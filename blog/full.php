@@ -219,7 +219,7 @@
                           </li>
                           <li class="nav-item"><a href="../consulting/">Consulting</a></li>
                           <!-- <li class="nav-item"><a href="https://papaly.com/9/vHE5">Resources</a></li> -->
-                          <li class="nav-item"><a href="https://gumroad.com/l/chronically-badass">Zine</a></li>
+                          <li class="nav-item"><a href="https://dmurring.itch.io/chronicallybadass">Zine</a></li>
                           <li class="nav-item"><a href="http://blog.spoonieliving.com/post/144817718323/image-description-top-banner-reads-introducing">App</a></li>
                           <!-- <li class="nav-item"><a href="../shop">Shop</a></li> -->
                         </ul>

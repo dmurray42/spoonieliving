@@ -2,7 +2,7 @@
 
 <?php
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
-include "$root/includes/head.php";
+include "$root/template/head.php";
 ?>
 
 <title>Spoonie Living - Error</title>

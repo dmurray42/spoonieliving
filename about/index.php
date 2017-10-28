@@ -1,7 +1,7 @@
 <?php
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 
-include "$root/includes/head.php";
+include "$root/template/head.php";
 ?>
 
 <title>Spoonie Living</title>
@@ -10,26 +10,26 @@ include "$root/includes/head.php";
 
 
 <?php
-include "$root/includes/pre.php";
+include "$root/template/pre.php";
 ?>
 
 <div id="section">
 	<h1>About</h1>
 	<hr>
-	<img class="textwrap-left" src="/img/baby.png" alt="Baby with spoon" width="200">
+	<img class="textwrap-image-left" src="/img/baby.png" alt="Baby with spoon" width="200">
 	<p>Spoonie Living is a lifestyle blog à la Martha Stewart Living for folks with chronic illness and/or disabilities who aren’t going to let their health problems keep them from living a fantastic life. Here you’ll find <a href="www.butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/">spoonie</a>-specific advice, products, reviews, as well as life hacks and awesome mods of all sorts of medical devices&mdash;so <a href="http://blog.spoonieliving.com">have a look</a> and start living the spoonie life with us!</p>
-	<div class="clearboth">
-	<p><i>Have a blog of your own and want to write or solicit a guest post? Have a product you’d like us to advertise or review? Want to collaborate on a project? <a href="mailto:contact@spoonieliving.com">Drop us a line</a>&mdash;we love making new friends!
+	<div class="clear-both">
+	<p><i>Have a blog of your own and want to write or solicit a guest post? Have a product you’d like us to advertise or review? Want to collaborate on a project? Drop us a line&mdash;we love making new friends! You can email <a href="mailto:contact@spoonieliving.com">contact@spoonieliving.com</a> or hit us up on social media.
 	</i></p></div>
 </div>
 
 <div id="section">
 	<h3>The Editor</h3>
-	<img class="textwrap-right" src="/img/headshot.png" alt="Diane Murray" width="150">
+	<img class="textwrap-image-right" src="/img/headshot.png" alt="Diane Murray" width="150">
 	<p>Spoonie Living is curated by <a href="http://www.dmurring.com">Diane Murray</a>, a spoonie with a passion for creating resources on topics of all kinds. She lives in Portland, OR, with two partners, four cats, and a cute little croissant-fueled <a href="https://en.wiktionary.org/wiki/nibling">nibling</a>.</p>
 	<p>Diane has a not-fully-diagnosed <a href="https://en.wikipedia.org/wiki/Connective_tissue_disease">connective tissue disorder</a>, <a href="https://en.wikipedia.org/wiki/Postural_orthostatic_tachycardia_syndrome">Postural Orthostatic Tachycardia Syndrome</a>, <a href="https://en.wikipedia.org/wiki/Chronic_fatigue_syndrome">Systemic Exertion Intolerance Disease/Chronic Fatigue Syndrome</a>, <a href="https://en.wikipedia.org/wiki/Small_intestinal_bacterial_overgrowth">Small Intestine Bacterial Overgrowth</a>, and <a href="https://en.wikipedia.org/wiki/Cyclothymia">Cyclothymia</a>, and expects her collection to only grow as time goes on.</p>
-<div class="clearboth">
-	<p>Diane's work is always free and available to all, so please consider supporting her on <a href="http://www.patreon.com/dmurring">Patreon</a> or tossing a buck or two into the <a href="http://www.digitaltipjar.com/dmurring">tip jar</a>!</p> </div>
+<div class="clear-both">
+	<p>Diane's work is always free and available to all, so please consider supporting her on <a href="http://www.patreon.com/dmurring">Patreon</a> or tossing a buck or two into the <a href="http://www.paypal.me/dmurring">tip jar</a>!</p> </div>
 </div>
 
 <div id="section">
@@ -44,15 +44,17 @@ include "$root/includes/pre.php";
 
 	<h4><font color="black">💊</font> What’s all this with the spoons?</h4>
 	<p>The term “spoonie” refers to a person with a chronic illness of some type (mental or physical) that has a serious impact on their daily life. It comes from <a href="www.butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/">Christine Miserando’s Spoon Theory story</a>, and it resonated with so many people that it spawned its own term and is used by folks all over the world!</p>
+	<br>
 
 	<h4><font color="black">💊</font> Do I count as a spoonie?</h4>
 	<p>We get this question all the time, and the answer is: if you’re asking, you probably do! If you spend a significant time during your average day caring for yourself or measuring out your emotional and/or physical resources to decide what you can and can’t afford to do&mdash;well, welcome to the world of spoonies.</p>
 
 	<p><a href="http://blog.spoonieliving.com/post/158859942465/am-i-a-spoonie-an-interactive-guide">If you’re not convinced you belong in the spoonie community, here is a silly interactive guide!</a></p>
+	<br>
 
-<h4><font color="black">💊</font> Are you looking for submissions?</h4>
+	<h4><font color="black">💊</font> Are you looking for submissions?</h4>
 
-<p>You bet! Got something great? <a href="http://blog.spoonieliving.com/submit">Submit it</a>, include @spoonie-living on a Tumblr post, or <a href="mailto:contact@spoonieliving.com">email us!</a></p>
+	<p>You bet! Got something great? <a href="http://blog.spoonieliving.com/submit">Submit it</a>, include @spoonie-living on a Tumblr post, or <a href="mailto:contact@spoonieliving.com">email us!</a></p>
 </div>
 
 <div id="section">
@@ -71,5 +73,5 @@ include "$root/includes/pre.php";
 </div>
 
 <?php
-include "$root/includes/post.php";
+include "$root/template/post.php";
 ?>

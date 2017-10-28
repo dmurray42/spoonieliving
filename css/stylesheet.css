@@ -1,53 +1,11 @@
-//TODO: make notes
-//TODO: refactor for consistency (ex. #clearboth ==> #clear-both)
-//TODO: break out little fixes that can be reused into their own stylesheet for reuse; include dmurring css items
+/* || Main stylesheet for SpoonieLiving.com || */
 
-div {
+/* TODO: make notes and add to all stylesheets*/
+/* TODO: Get class vs. id straight and make things consistent. Leave cheat sheet at the top of this document */
 
-}
-
-p {
-
-}
-
-hr {
-	color:#DBA9A9;
-	/*TODO is this even working? */
-}
-
-a {
-	color:#8C4646;
-	text-decoration:none;
-	font-weight:bold;
-}
-
-/* visited link */
-a:visited {
-    color:#662626;
-		text-decoration:none;
-		font-weight:bold;
-}
-
-/* mouse over link */
-a:hover {
-    color:#662626;
-		text-decoration:none;
-		font-weight:bold;
-}
-
-/* selected link */
-a:active {
-	color:#662626;
-	text-decoration:none;
-	font-weight:bold;
-}
-
+/* ****** General ****** */
 h1, h2, h3, h4, h5{
 	color:#8C4646;
-}
-
-h4 {
-	padding-top:5px;
 }
 
 h1 a, h2 a, h3 a {
@@ -61,134 +19,164 @@ hr {
 	color:#e8d7d7;
 }
 
-
-#scroll-top-btn {
-	border-radius: 4px;
-  font-family: Arial;
-  color: #ffffff !important;
-  font-size: 17px !important;
-  background: #B07171;
-  padding: 10px 10px 10px 10px;
-  text-decoration: none;
-	opacity:0.7;
-	/*display:none;*/
-	position: fixed; /* Fixed/sticky position */
-	bottom: 20px; /* Place the button at the bottom of the page */
-	right: 30px; /* Place the button 30px from the right */
-	z-index: 99; /* Make sure it does not overlap */
-	border: none; /* Remove borders */
-	outline: none; /* Remove outline */
-	color: white; /* Text color */
-	padding: 15px; /* Some padding */
-	border-radius: 10px; /* Rounded corners */
-}
-
-#scroll-top-btn:hover {
-	background: #8C4646 !important;
+a {
+	color:#8C4646;
 	text-decoration:none;
+	font-weight:bold;
+}
+
+a:hover {
+    color:#662626;
+		text-decoration:none;
+		font-weight:bold;
+}
+
+a:active {
+	color:#662626;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:visited {
+    color:#662626;
+		text-decoration:none;
+		font-weight:bold;
 }
 
 
-#page {
-
-}
-
+/* ****** Site elements ****** */
 .container{
 	max-width:1000px;
 }
 
-#header {
+.header {
 
 }
-
-#header img{
-	width:100%;
-	margin-bottom:20px;
-}
-
-#navigation ul, #sidebar ul, #side-item ul {
-	list-style:none;
-}
+			#header img{
+				width:100%;
+				margin-bottom:20px;
+			}
 
 .navbar {
 	margin-left:10px;
 	margin-right:10px;
 }
 
-.navbar-collapse {
-	padding-left:0px;
+			.nav-justified {
+			   border-collapse:separate;
+			}
+
+			.navbar-collapse {
+				padding-left:0px;
+			}
+
+			#menu-label {
+				font-size:20px;
+				margin-left:20px;
+			}
+
+			.nav-item, .dropdown {
+				margin-left:10px;
+			}
+
+			.nav-item, .dropdown a, .nav-item a {
+				font-size: 20px;
+				color:#000000 !important;
+			}
+
+			.nav-item a:hover, .dropdown a:hover{
+				color:#3B3B3B !important;
+			}
+
+			.dropdown-menu a {
+				font-size: 15px;
+			}
+
+			#navigation ul {
+				list-style:none;
+			}
+
+
+.content {
+
 }
 
-.nav-justified {
-   border-collapse:separate;
-}
+			#section {
+				padding-bottom:10px;
+			}
 
-.navbar-toggle {
-}
+			#posts {
+				border:solid, 1px, #D1D1D1;
+			}
 
-.nav-item, .dropdown {
-	margin-left:10px;
+			.featured-item {
+				padding-bottom:20px;
+				clear:both;
+			}
 
-}
-
-#menu-label {
-	font-size:20px;
-	margin-left:20px;
-}
-
-.nav-item, .dropdown a, .nav-item a {
-	font-size: 20px;
-	color:#000000 !important;
-}
-
-.nav-item a:hover, .dropdown a:hover{
-	color:#3B3B3B !important;
-}
-
-.dropdown-menu a {
-	font-size: 15px;
-}
-
-#content {
-
-}
-
-#section {
-	padding-bottom:10px;
-}
-
-#posts {
-	border:solid, 1px, #D1D1D1;
-}
-
-.share-list {
-	list-style-type:none;
-	margin:0px;
-	padding:0px;
-}
-
-.share-list li {
-	display:inline;
-}
+			.featured-item img {
+				padding-top:3px; /*fixes text/image visual offset*/
+				padding-bottom:20px; /*in case image is taller than text*/
+				margin-right:5px;
+				margin-bottom:5px;
+			}
 
 #sidebar {
+
 }
 
-.side-item ul{
-	padding-left:0px;
+			#sidebar ul {
+				list-style:none;
+			}
+
+			#sidebar li {
+				display:inline;
+			}
+
+			.side-item ul{
+				list-style:none;
+				padding-left:0px;
+			}
+
+			.favicon img{
+				width:35px;
+				height:35px;
+			}
+
+			.share-list {
+				list-style-type:none;
+				margin:0px;
+				padding:0px;
+			}
+
+			.share-list li {
+				display:inline;
+			}
+
+#footer {
+	text-align:center;
+	font-style:italic;
+	font-size:small;
 }
 
-#sidebar li {
-	display:inline;
+#mobile-ad-banner {
+  background:rgba(255,255,255,0.8);
+	width:252px;
+	height:120px;
+  padding: 5px,10px,10px,10px;
+	position: fixed;
+	bottom: 0px;
+	left: 30px;
+	z-index: 97;
+	border-top-right-radius:4px;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
 }
 
-.favicon img{
-	width:35px;
-	height:35px;
-}
-
-.separator-decoration {
-	vertical-align:center;
+/* ****** Buttons ****** */
+.navbar-toggle {
+	margin-left:10px;
 }
 
 .email-btn {
@@ -201,75 +189,96 @@ hr {
   text-decoration: none;
 }
 
-.email-btn-sm {
-  border-radius: 4px;
+	.email-btn-sm {
+	  border-radius: 4px;
+	  font-family: Arial;
+	  color: #ffffff !important;
+	  font-size: 12px !important;
+	  background: #B07171;
+	  padding: 5px 5px 5px 5px;
+	  text-decoration: none;
+		font-weight: normal !important;
+	}
+
+	.email-btn:hover, .email-btn-sm:hover {
+	  background: #8C4646 !important;
+		text-decoration:none;
+	}
+
+#scroll-top-btn {
+	display:none;
   font-family: Arial;
   color: #ffffff !important;
-  font-size: 12px !important;
+  font-size: 17px !important;
   background: #B07171;
-  padding: 5px 5px 5px 5px;
+  padding: 10px 15px 10px 15px;
   text-decoration: none;
-	font-weight: normal !important;
+	position: fixed;
+	bottom: 0px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	color: white;
+	border-top-right-radius:4px;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
 }
 
-.email-btn:hover, .email-btn-sm:hover {
-  background: #8C4646 !important;
-	text-decoration:none;
+	#scroll-top-btn:hover {
+		background: #8C4646 !important;
+		text-decoration:none;
+	}
+
+#hide-banner-btn {
+	color:#B07171 !important;
+	background:none;
+	margin:-10px;
+	position:fixed;
+	bottom:108px;
+	left:265px;
+	z-index:98;
+	border:none;
+	border-radius:50%;
 }
 
-#footer {
-	text-align:center;
-	font-style:italic;
-	font-size:small;
-}
+	#hide-banner-btn:hover {
+		color:#8C4646 !important;
+		text-decoration:none;
+	}
 
+/* ****** Tweaks ****** */
 
-/*Classes folks really shouldn't have to write*/
-
-.textwrap-left {
+/* .pull-left with a nice margin */
+.textwrap-image-left {
 	float:left;
 	margin:0px 10px 10px 0px;
 }
 
-.textwrap-right {
+/* .pull-right with a nice margin */
+.textwrap-image-right {
 	float:right;
 	margin:0px 0px 10px 10px;
 }
 
-.imageright {
+.margin-right-5 {
+	margin-right:5px;
+}
+
+/* TODO: remove this class */
+.image-right {
 	float:left;
 	width:39%;
 }
 
-.textleft {
+/* TODO: remove this class */
+.text-left {
 	float:left;
 	width:59%;
 }
 
-.textright {
-	text-align:right;
-}
-
-.pull-left {
-	margin-left:10px;
-}
-
-.clearboth {
-	clear:both;
-}
-
-.center {
-	align-items:center;
-}
-
-.fitdiv {
+/* TODO: remove this class */
+.fit-div {
 	width:85%;
-}
-
-.margin-right {
-	margin-right:5px;
-}
-
-.thin-border {
-	border: 1px solid #000000;
 }

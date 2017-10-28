@@ -1,15 +1,28 @@
-window.onscroll = function() {showScrollButton()};
+    //Initialize
+    $(document).ready(function(){
 
-function showScrollButton() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("scroll-top-btn").style.display = "block";
-    } else {
-        document.getElementById("scroll-top-btn").style.display = "none";
-    }
-}
+        //"Scroll to top" button behavior
+        //TODO: This doesn't seem to be working.
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#scroll-top-btn').fadeIn("slow");
+            } else {
+                $('#scroll-top-btn').fadeOut("slow");
+            }
+        });
 
-// When the user clicks on the button, scroll to the top of the document
-function scrollToTop() {
-    document.body.scrollTop = 0; // For Chrome, Safari and Opera
-    document.documentElement.scrollTop = 0; // For IE and Firefox
-}
+        //Listener: scroll body to 0px on click
+        $('#scroll-top-btn').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+
+        //Listener: hide mobile ad banner on click
+        $('#hide-banner-btn').click(function () {
+            $('#mobile-ad-banner').hide();
+            $('#hide-banner-btn').hide();
+        });
+
+    });

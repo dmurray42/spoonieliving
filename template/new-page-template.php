@@ -1,7 +1,7 @@
 <!-- Template: head.php -->
 <?php
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
-include "$root/includes/head.php";
+include "$root/template/head.php";
 ?>
 
 <!-- Metadata -->
@@ -11,7 +11,7 @@ include "$root/includes/head.php";
 
 <!-- Template: pre.php -->
 <?php
-include "$root/includes/pre.php";
+include "$root/template/pre.php";
 ?>
 
 <!-- Content -->
@@ -29,5 +29,5 @@ include "$root/includes/pre.php";
 
 <!-- Template: post.php -->
 <?php
-include "$root/includes/post.php";
+include "$root/template/post.php";
 ?>
