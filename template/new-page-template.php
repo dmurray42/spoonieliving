@@ -7,7 +7,7 @@ include "$root/template/head.php";
 <!-- Metadata -->
 <title> </title>
 <meta name="Description" content=" ">
-<meta name="Keywords" content=" ">
+<meta name="Keywords" content="spoonie, chronic illness, disability, invisible illness, chronic pain, mental illness">
 
 <!-- Template: pre.php -->
 <?php

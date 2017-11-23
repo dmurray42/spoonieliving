@@ -7,7 +7,7 @@ include "$root/template/head.php";
 <!-- Metadata -->
 <title> </title>
 <meta name="Description" content="Featured blogs for spoonie resources">
-<meta name="Keywords" content="spoonie, chronic illness, disability, invisible illness">
+<meta name="Keywords" content="spoonie, chronic illness, disability, invisible illness, chronic pain, mental illness">
 
 <!-- Template: pre.php -->
 <?php
@@ -33,8 +33,8 @@ include "$root/template/pre.php";
 	<!-- TODO: Standardize images by width instead of height -->
 
 	<!-- How To Get On -->
-	<div class="featured-item" id="howtogeton">
-		<h4><a href="https://howtogeton.wordpress.com">How to Get On</a></h4>
+	<div class="image-text-li" id="howtogeton">
+		<h3><a href="https://howtogeton.wordpress.com">How to Get On</a></h3>
 		<div class="pull-left margin-right-5">
 			<a href="https://howtogeton.wordpress.com"><img src="/img/featured/howtogeton.png" alt="Watercolor painting of cat with abstract background"></a>
 		</div>
@@ -47,8 +47,10 @@ include "$root/template/pre.php";
 		</div>
 	</div> <!-- End How To Get On -->
 
-	<div class="featured-item" id="realsocialskills">
-		<h4><a href="http://realsocialskills.org">Real Social Skills for Autonomous People</a></h4>
+	<br>
+
+	<div class="image-text-li" id="realsocialskills">
+		<h3><a href="http://realsocialskills.org">Real Social Skills for Autonomous People</a></h3>
 		<div class="pull-left margin-right-5">
 			<a href="http://realsocialskills.org"><img src="/img/featured/realsocialskills.png" alt="Real Social Skills logo; bold text on a background with mountains, overcast sky, and rainbow"></a>
 		</div>
@@ -61,9 +63,11 @@ include "$root/template/pre.php";
 		</div>
 	</div> <!-- End Real Social Skills -->
 
+	<br>
+
 	<!-- When Tania Talks -->
-	<div class="featured-item" id="whentaniatalks">
-		<h4><a href="http://www.whentaniatalks.com/">When Tania Talks</a></h4>
+	<div class="image-text-li" id="whentaniatalks">
+		<h3><a href="http://www.whentaniatalks.com/">When Tania Talks</a></h3>
 		<div class="pull-left margin-right-5">
 			<a href="http://www.whentaniatalks.com/"><img src="/img/featured/whentaniatalks.png" alt="When Tania Talks logo; handwritten script with watercolor border"></a>
 		</div>
@@ -74,9 +78,11 @@ include "$root/template/pre.php";
 		</div>
 	</div> <!-- End When Tania Talks -->
 
+	<br>
+
 	<!-- Aloe -->
-	<div class="featured-item" id="aloe">
-		<h4><a href="https://femsplain.com/aloe/home">Aloe</a></h4>
+	<div class="image-text-li" id="aloe">
+		<h3><a href="https://femsplain.com/aloe/home">Aloe</a></h3>
 		<div class="pull-left margin-right-5">
 			<a href="https://femsplain.com/aloe/home"><img src="/img/featured/aloe.png" alt="Aloe logo; a budding plant with sparkles around it in a light green circle with twin hearts on the left and right"></a>
 		</div>
@@ -86,6 +92,36 @@ include "$root/template/pre.php";
 			<p>Look out for their check-in app, which is in the works now and promises to be just fantastic.</p>
 		</div>
 	</div> <!-- End Aloe -->
+
+	<br>
+
+	<!-- Let's Queer Things Up! -->
+	<div class="image-text-li" id="lqtu">
+		<h3><a href="https://letsqueerthingsup.com">Let's Queer Things Up!</a></h3>
+		<div class="pull-left margin-right-5">
+			<a href="https://letsqueerthingsup.com"><img src="/img/featured/lqtu.png" alt="Let's Queer Things Up logo with photos of the author, medicine, and a pride flag."></a>
+		</div>
+		<div>
+			<p>Although we only recently ran into <a href="https://letsqueerthingsup.com">Let's Queer Things Up!</a>, we've already featured several articles from prolific and thoughtful writer Sam Dylan Finch.</p>
+
+			<p>Sam covers the intersections of trans/queer identity, mental health, and social justice, and he does it remarkably well. Definitely a must-follow!</p>
+		</div>
+	</div> <!-- End Let's Queer Things Up! -->
+
+	<br>
+
+	<!-- ChronicBabe -->
+	<div class="image-text-li" id="chronicbabe">
+		<h3><a href="http://www.chronicbabe.com/">ChronicBabe</a></h3>
+		<div class="pull-left margin-right-5">
+			<a href="http://www.chronicbabe.com/"><img src="/img/featured/chronicbabe.jpg" alt="ChronicBabe logo with "Chronic" in orange cursive and "Babe" in bold, hot pink sans serif"></a>
+		</div>
+		<div>
+			<p><a href="http://www.chronicbabe.com/">ChronicBabe</a> was created to "help you have an amazing life in spite of illness," and Jenni really delivers! Whether it's a video, her secret club, or her new book, she's giving great advice for thriving as a spoonie.</p>
+
+			<p>There's even a <a href="http://chronicbabeclub.ning.com/">forum</a> where folks can chat and swap tips.</p>
+		</div>
+	</div> <!-- End ChronicBabe -->
 
 </div> <!-- End content -->
 

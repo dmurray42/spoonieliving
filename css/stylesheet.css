@@ -109,12 +109,12 @@ a:visited {
 				border:solid, 1px, #D1D1D1;
 			}
 
-			.featured-item {
+			.image-text-li {
 				padding-bottom:20px;
 				clear:both;
 			}
 
-			.featured-item img {
+			.image-text-li img {
 				padding-top:3px; /*fixes text/image visual offset*/
 				padding-bottom:20px; /*in case image is taller than text*/
 				margin-right:5px;
@@ -159,14 +159,35 @@ a:visited {
 	font-size:small;
 }
 
-#mobile-ad-banner {
+#desktop-ad-banner {
   background:rgba(255,255,255,0.8);
-	width:252px;
-	height:120px;
+	width:728px;
+	height:110px;
   padding: 5px,10px,10px,10px;
 	position: fixed;
+	margin-left:auto;
+	margin-right:auto;
 	bottom: 0px;
-	left: 30px;
+	left: 0px;
+	right: 0px;
+	z-index: 97;
+	border-top-right-radius:4px;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+}
+
+#mobile-ad-banner {
+  background:rgba(255,255,255,0.8);
+	width:350px;
+	height:70px;
+  padding: 5px,10px,10px,10px;
+	position: fixed;
+	margin-left:auto;
+	margin-right:auto;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 	z-index: 97;
 	border-top-right-radius:4px;
 	border-top-left-radius:4px;
@@ -219,6 +240,7 @@ a:visited {
 	z-index: 99;
 	border: none;
 	outline: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	color: white;
 	border-top-right-radius:4px;
 	border-top-left-radius:4px;
@@ -249,6 +271,10 @@ a:visited {
 	}
 
 /* ****** Tweaks ****** */
+
+.noborder {
+	border:none !important;
+}
 
 /* .pull-left with a nice margin */
 .textwrap-image-left {

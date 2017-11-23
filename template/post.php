@@ -47,15 +47,21 @@
 <!-- Support the Editor -->
 <div class="side-item">
   <h3>Support the Editor</h3>
-  <a href="http://www.patreon.com/dmurring"><img src="../img/patreon.png" alt="Patreon" width="100px"></a>&emsp;
-  <a href="https://www.paypal.me/dmurring"><img src="../img/paypalme.png" alt="PayPal.me" width="100px"></a>
+  <a href="https://www.paypal.me/dmurring"><img src="../img/paypalme.png" alt="PayPal.me"></a>
+  <br>
+  <a href="../about">Editor Diane</a> is hard at work to bring you new resources daily!
   <hr/>
 </div>
 
 <!-- Our Cohort -->
 <div class="side-item">
   <h3>Our Cohort</h3>
-  <a href="http://chronicillnessbloggers.com/"> <img src="../img/ciblogo.jpg"></a>
+  <a href="http://chronicillnessbloggers.com/"> <img src="../img/ciblogo.jpg" width="225px"></a>
+  <br><br>
+  <a href="http://antidote.me/"> <img src="../img/antidote.png" width="225px"></a>
+  <br>
+  <script async="true" src="//antidote.me/unisearch/js/embed.js?utm_source=spoonieliving_com&utm_medium=ctsearch&utm_campaign=unisearch&width=225&height=250&color=FFFFFF&bg_color=000000&font=sans"></script>
+
 </div>
 
 </div> <!-- End column -->
@@ -69,21 +75,14 @@
 <!-- TODO (medium priority - incomplete): Figure out how to center this -->
 <!-- <div class="separator-decoration"><img src="../img/decoration2.png" alt="decoration" width="75px"></div> -->
 
-<!-- Editor info and Patreon/tip jar-->
+<!--Tip jar-->
 <div class="col-xs-12 col-md-4">
 
 <h3>Give the editor some love</h3>
-<div class="pull-left">
-<a href="http://www.patreon.com/dmurring"><img src="../img/patreon.png" alt="Patreon"></a>
-<br>
 <a href="https://www.paypal.me/dmurring"><img src="../img/paypalme.png" alt="PayPal.me"></a>
-</div>
-
-<div>
-<a href="http://www.dmurring.com"><img src="../img/headshot.png" alt="Headshot" width="100px"></a>
-</div>
-
-</div> <!-- End editor info & Patreon/tip jar -->
+<br>
+Your support helps <a href="../about">Editor Diane</a> keep the daily resources flowing!
+</div> <!-- End tip jar -->
 
 <!-- Spacer-->
 <div class="col-xs-12 col-md-1"></div>
@@ -151,31 +150,52 @@
   <span class="glyphicon glyphicon-chevron-up"></span>
 </a>
 
-<!--TODO: Add ability to hide this banner-->
+<!--TODO: Add ability to hide these banners-->
+
+<!-- Desktop ad banner -->
+<div id="desktop-ad-banner" class="hidden-sm hidden-xs">
+  <center>
+    <a href="mailto:contact@spoonieliving.com">
+    Report a bad ad</a>
+<script type="text/javascript">
+  ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+    var unit = {"calltype":"async[2]","publisher":"spoonieliving","width":728,"height":90,"sid":"Chitika Default"};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+</script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+</div> <!-- End desktop ad banner -->
+
 <!-- Mobile ad banner -->
 <div id="mobile-ad-banner" class="hidden-lg hidden-md">
   <center>
-    <a href="mailto:contact@spoonieliving.com" style="font-size:10px;color:#8C4646;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;">
+    <a href="mailto:contact@spoonieliving.com">
     Report a bad ad</a>
 
-    <!-- Project Wonderful Ad Box Code -->
-    <!-- Cannot be modified -->
-    <div id="pw_adbox_79494_6_0"></div>
-    <script type="text/javascript"></script>
-    <noscript><map name="admap79494" id="admap79494"><area href="http://www.projectwonderful.com/out_nojs.php?r=0&c=0&id=79494&type=6" shape="rect" coords="0,0,234,60" title="" alt="" target="_blank" rel="noopener noreferrer" /></map>
-      <table cellpadding="0" cellspacing="0" style="width:234px;border-style:none;background-color:#ffffff;"><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=79494&type=6" style="width:234px;height:60px;border-style:none;" usemap="#admap79494" alt="" /></td></tr><tr><td style="background-color:#ffffff;" colspan="1"><center><a style="font-size:10px;color:#8C4646;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=79494&type=6&tag=117806" target="_blank">Ads by Project Wonderful!  Your ad could be here, right now.</a></center></td></tr></table>
-    </noscript>
+      <script type="text/javascript">
+    ( function() {
+      if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+      var unit = {"calltype":"async[2]","publisher":"spoonieliving","width":320,"height":50,"sid":"Chitika Default"};
+      var placement_id = window.CHITIKA.units.length;
+      window.CHITIKA.units.push(unit);
+      document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+  }());
+  </script>
+  <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
 
 </div> <!-- End mobile ad banner -->
 
-<!--Close ad button -->
-<!--TODO: Make this button work-->
+<!--Close ad button TODO: Make this button work
 <div id="hide-banner" class="hidden-lg hidden-md">
   <a id="hide-banner-btn" href="#" class="btn btn-primary btn-xs"
     role="button" title="Hide banner" data-toggle="tooltip" data-placement="top">
     <span class="glyphicon glyphicon-remove" style:"font-size:5px"></span>
   </a>
 </div>
+-->
 
 <!--Javascript for the buttons-->
 <script src="../js/custom.js"></script>

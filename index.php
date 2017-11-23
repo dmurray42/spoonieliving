@@ -12,7 +12,6 @@ include "$root/template/head.php";
 <?php
 include "$root/template/pre.php";
 ?>
-
 			<h1>Welcome To Spoonie Living!</h1>
 			<hr>
 			<br>
@@ -24,24 +23,28 @@ include "$root/template/pre.php";
 			</p>
 			<br>
 
-			<div>
-				<img class="textwrap-image-right" src="/img/baby.png" height="100px" alt="Baby being fed with spoon">
-			</div>
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<a href="http://bit.ly/chronically-badass">
+						<div class="thumbnail noborder">
+							<img src="../img/baby.png" alt="Baby being fed with spoon"></a>
+							<div class="caption">
+								<p>New to sick kid life? Check out <a href="http://bit.ly/chronically-badass">Chronically Badass</a>, our zine for new spoonies!</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<a href="http://blog.spoonieliving.com">
+							<div class="thumbnail noborder">
+								<img src="../img/man.png" alt="Man with spoon"></a>
+								<div class="caption">
+									<p>Want to get straight to the resources? Pop on over to <a href="http://blog.spoonieliving.com">the blog</a>!</p>
+								</div>
+							</div>
+						</div>
 
-			<div>
-				<p>New to sick kid life? Check out <a href="http://bit.ly/chronically-badass">Chronically Badass</a>, our zine for new spoonies!</p>
-			</div>
+				</div>
 
-			<br>
-
-			<div class="clear-both">
-				<img class="textwrap-image-left" src="/img/man.png" height="100px" alt="Man with spoon">
-
-				<p>Want to get straight to the resources? Pop on over to <a href="http://blog.spoonieliving.com">the blog</a>!</p>
-					<br>
-			</div>
-
-			<div>
 				<p>
 					Enjoy, friends!
 				</p>
@@ -49,7 +52,9 @@ include "$root/template/pre.php";
 				<p>
 					Love and spoons,
 				</p>
-				<a href="http://www.dmurring.com"><img src="/img/name.png" alt="Diane Murray" height="30px"></a>
+				<p>
+					<a href="http://www.dmurring.com"><img src="/img/name.png" alt="Diane Murray" width="160px"></a>
+				</p>
 				<p>
 					<i>Creator and Editor</i>
 				</p>
@@ -58,8 +63,6 @@ include "$root/template/pre.php";
 				<p>
 					<i>p.s. Never heard the term "spoonie" before? Check out Christine Miserandino's <a href="http://www.butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/">Spoon Theory</a> to learn more.</i>
 				</p>
-
-			</div>
 
 			<?php
 			include "$root/template/post.php";
