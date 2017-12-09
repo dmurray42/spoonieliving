@@ -29,7 +29,7 @@ include "$root/template/pre.php";
 						<div class="thumbnail noborder">
 							<img src="../img/baby.png" alt="Baby being fed with spoon"></a>
 							<div class="caption">
-								<p>New to sick kid life? Check out <a href="http://bit.ly/chronically-badass">Chronically Badass</a>, our zine for new spoonies!</p>
+								<p>New to sick kid life? <a href="http://bit.ly/chronically-badass">Check out Chronically Badass, our zine for new spoonies!</a></p>
 							</div>
 						</div>
 					</div>
@@ -38,7 +38,7 @@ include "$root/template/pre.php";
 							<div class="thumbnail noborder">
 								<img src="../img/man.png" alt="Man with spoon"></a>
 								<div class="caption">
-									<p>Want to get straight to the resources? Pop on over to <a href="http://blog.spoonieliving.com">the blog</a>!</p>
+									<p>Want to get straight to the resources? <a href="http://blog.spoonieliving.com">Pop on over to the blog!</a></p>
 								</div>
 							</div>
 						</div>

@@ -29,26 +29,11 @@
   <hr/>
 </div>
 
-<!-- Advertisement (desktop) -->
-<div class="hidden-xs hidden-sm">
-  <div class="side-item">
-    <h3>Advertisement</h3>
-
-    <!--TODO: Actually have an ad here-->
-
-    <h6>
-    <a href="mailto:contact@spoonieliving.com">
-    Report a bad ad</a></h6>
-
-    <hr/>
-  </div>
-</div> <!-- End Advertisement (desktop) -->
-
 <!-- Support the Editor -->
 <div class="side-item">
   <h3>Support the Editor</h3>
   <a href="https://www.paypal.me/dmurring"><img src="../img/paypalme.png" alt="PayPal.me"></a>
-  <br>
+  <br><br>
   <a href="../about">Editor Diane</a> is hard at work to bring you new resources daily!
   <hr/>
 </div>
@@ -80,7 +65,7 @@
 
 <h3>Give the editor some love</h3>
 <a href="https://www.paypal.me/dmurring"><img src="../img/paypalme.png" alt="PayPal.me"></a>
-<br>
+<br><br>
 Your support helps <a href="../about">Editor Diane</a> keep the daily resources flowing!
 </div> <!-- End tip jar -->
 
@@ -137,7 +122,10 @@ Your support helps <a href="../about">Editor Diane</a> keep the daily resources 
   <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Spoonie Living</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
   <br>
   The code is written and managed by <a href="http://www.dmurring.com">Diane Murray</a>, and is available on <a href="http://www.github.com/dmurring/spoonieliving">Github</a>.
-  <br><br>
+  <br><br><!-- End licensing -->
+
+  <!-- TODO: This workaround to make room for ads doesn't scale at all for magnified page view-->
+  <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 
 </div> <!-- End column -->
 </div> <!-- End footer -->
@@ -150,29 +138,27 @@ Your support helps <a href="../about">Editor Diane</a> keep the daily resources 
   <span class="glyphicon glyphicon-chevron-up"></span>
 </a>
 
-<!--TODO: Add ability to hide these banners-->
-
 <!-- Desktop ad banner -->
 <div id="desktop-ad-banner" class="hidden-sm hidden-xs">
   <center>
-    <a href="mailto:contact@spoonieliving.com">
+    <a class="link" href="#" id="close-desktop-ad">Close this ad</a> // <a href="mailto:contact@spoonieliving.com">
     Report a bad ad</a>
-<script type="text/javascript">
-  ( function() {
-    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
-    var unit = {"calltype":"async[2]","publisher":"spoonieliving","width":728,"height":90,"sid":"Chitika Default"};
-    var placement_id = window.CHITIKA.units.length;
-    window.CHITIKA.units.push(unit);
-    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
-}());
-</script>
-<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+  <script type="text/javascript">
+    ( function() {
+      if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+      var unit = {"calltype":"async[2]","publisher":"spoonieliving","width":728,"height":90,"sid":"Chitika Default"};
+      var placement_id = window.CHITIKA.units.length;
+      window.CHITIKA.units.push(unit);
+      document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+  }());
+  </script>
+  <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
 </div> <!-- End desktop ad banner -->
 
 <!-- Mobile ad banner -->
 <div id="mobile-ad-banner" class="hidden-lg hidden-md">
   <center>
-    <a href="mailto:contact@spoonieliving.com">
+    <a class="link" href="#" id="close-mobile-ad">Close this ad</a> // <a href="mailto:contact@spoonieliving.com">
     Report a bad ad</a>
 
       <script type="text/javascript">

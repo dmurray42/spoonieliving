@@ -5,7 +5,7 @@ include "$root/template/head.php";
 ?>
 
 <!-- Metadata -->
-<title> </title>
+<title> Featured Blogs </title>
 <meta name="Description" content="Featured blogs for spoonie resources">
 <meta name="Keywords" content="spoonie, chronic illness, disability, invisible illness, chronic pain, mental illness">
 
@@ -30,7 +30,7 @@ include "$root/template/pre.php";
 	<p>Want to hear about our featured blogs as soon as we announce them? <a href="http://eepurl.com/b4tg45" target="_blank">You can join our monthly newsletter</a> and get the best posts of each month to boot!</p>
 	<br>
 
-	<!-- TODO: Standardize images by width instead of height -->
+	<!-- TODO: Standardize images by width instead of height(?); standardize spacing between list items, as current spacing is kind of duct-taped. See .image-text-li and sub-items and be aware that there are no line breaks between some items in this list to compensate. -->
 
 	<!-- How To Get On -->
 	<div class="image-text-li" id="howtogeton">
@@ -47,8 +47,7 @@ include "$root/template/pre.php";
 		</div>
 	</div> <!-- End How To Get On -->
 
-	<br>
-
+	<!-- Real Social Skills -->
 	<div class="image-text-li" id="realsocialskills">
 		<h3><a href="http://realsocialskills.org">Real Social Skills for Autonomous People</a></h3>
 		<div class="pull-left margin-right-5">
@@ -62,8 +61,6 @@ include "$root/template/pre.php";
 			<p>Articles cover boundaries, how to do various things, power dynamics, abuse, ableism, and more. The author is autistic and writes what they know, so articles are both accessible and specifically useful to autistic folks.</p>
 		</div>
 	</div> <!-- End Real Social Skills -->
-
-	<br>
 
 	<!-- When Tania Talks -->
 	<div class="image-text-li" id="whentaniatalks">
@@ -114,7 +111,7 @@ include "$root/template/pre.php";
 	<div class="image-text-li" id="chronicbabe">
 		<h3><a href="http://www.chronicbabe.com/">ChronicBabe</a></h3>
 		<div class="pull-left margin-right-5">
-			<a href="http://www.chronicbabe.com/"><img src="/img/featured/chronicbabe.jpg" alt="ChronicBabe logo with "Chronic" in orange cursive and "Babe" in bold, hot pink sans serif"></a>
+			<a href="http://www.chronicbabe.com/"><img src="/img/featured/chronicbabe.jpg" alt="ChronicBabe logo with &quot;Chronic&quot; in orange cursive and &quot;Babe&quot; in bold, hot pink sans serif"></a>
 		</div>
 		<div>
 			<p><a href="http://www.chronicbabe.com/">ChronicBabe</a> was created to "help you have an amazing life in spite of illness," and Jenni really delivers! Whether it's a video, her secret club, or her new book, she's giving great advice for thriving as a spoonie.</p>
@@ -122,6 +119,27 @@ include "$root/template/pre.php";
 			<p>There's even a <a href="http://chronicbabeclub.ning.com/">forum</a> where folks can chat and swap tips.</p>
 		</div>
 	</div> <!-- End ChronicBabe -->
+
+	<br>
+
+	<!-- Spoons & Stripes, How I Learned to Cope, and Chasing Happiness -->
+	<div class="image-text-li" id="nina">
+		<h3><a href="http://spoonsandstripes.tumblr.com">Spoons &amp; Stripes</a> / <a href="https://howilearnedtocope.tumblr.com">How I Learned to Cope</a> / <a href="http://expeditionhappiness.tumblr.com">Chasing Happiness</a></h3>
+		<div class="pull-left margin-right-5">
+			<img src="/img/featured/nina.png" alt="Three pictures of a light-skinned femme with long, dark hair and a bright smile: on a PT table wearing knee braces, wearing a flower crown, and holding the top of a pineapple on her head"></a>
+		</div>
+		<div>
+			<p>This trio of blogs by the prolific Nina cover physical &amp; mental illness, coping skills (including CBT/DBT), illness management, and positivity. Topics of special interest include post-concussion syndrome, EDS and co-morbid conditions, a wide range of mental illness, and much more. We regularly find all sorts of fantastic resources through her work.</p>
+		</div>
+	</div>
+	<div class="image-text-li" id="nina-2">
+		<p><a href="http://spoonsandstripes.tumblr.com">Spoons &amp; Stripes</a>: Resources for managing the physical/medical side of chronic illness</p>
+
+		<p><a href="https://howilearnedtocope.tumblr.com">How I Learned to Cope</a>: Resources with all kinds of coping skills</p>
+
+		<p><a href="http://expeditionhappiness.tumblr.com">Chasing Happiness</a>: My quest to stay positive, find beauty and explore life</p>
+
+	<!-- End Spoons & Stripes, How I Learned to Cope, and Chasing Happiness -->
 
 </div> <!-- End content -->
 

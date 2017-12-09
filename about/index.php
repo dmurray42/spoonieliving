@@ -17,7 +17,7 @@ include "$root/template/pre.php";
 	<h1>About</h1>
 	<hr>
 	<img class="textwrap-image-left" src="/img/baby.png" alt="Baby with spoon" width="200">
-	<p>Spoonie Living is a lifestyle blog à la Martha Stewart Living for folks with chronic illness and/or disabilities who aren’t going to let their health problems keep them from living a fantastic life. Here you’ll find <a href="www.butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/">spoonie</a>-specific advice, products, reviews, as well as life hacks and awesome mods of all sorts of medical devices&mdash;so <a href="http://blog.spoonieliving.com">have a look</a> and start living the spoonie life with us!</p>
+	<p>Spoonie Living is a lifestyle blog à la Martha Stewart Living for folks with chronic illness and/or disabilities who aren’t going to let their health problems keep them from living a fantastic life. Here you’ll find <a href="http://www.butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/">spoonie</a>-specific advice, products, reviews, as well as life hacks and awesome mods of all sorts of medical devices&mdash;so <a href="http://blog.spoonieliving.com">have a look</a> and start living the spoonie life with us!</p>
 	<div class="clear-both">
 	<p><i>Have a blog of your own and want to write or solicit a guest post? Have a product you’d like us to advertise or review? Want to collaborate on a project? Drop us a line&mdash;we love making new friends! You can email <a href="mailto:contact@spoonieliving.com">contact@spoonieliving.com</a> or hit us up on social media.
 	</i></p></div>
@@ -29,7 +29,7 @@ include "$root/template/pre.php";
 	<p>Spoonie Living is curated by <a href="http://www.dmurring.com">Diane Murray</a>, a spoonie with a passion for creating resources on topics of all kinds. She lives in Portland, OR, with two partners, four cats, and a cute little croissant-fueled <a href="https://en.wiktionary.org/wiki/nibling">nibling</a>.</p>
 	<p>Diane has a not-fully-diagnosed <a href="https://en.wikipedia.org/wiki/Connective_tissue_disease">connective tissue disorder</a>, <a href="https://en.wikipedia.org/wiki/Postural_orthostatic_tachycardia_syndrome">Postural Orthostatic Tachycardia Syndrome</a>, <a href="https://en.wikipedia.org/wiki/Chronic_fatigue_syndrome">Systemic Exertion Intolerance Disease/Chronic Fatigue Syndrome</a>, <a href="https://en.wikipedia.org/wiki/Small_intestinal_bacterial_overgrowth">Small Intestine Bacterial Overgrowth</a>, and <a href="https://en.wikipedia.org/wiki/Cyclothymia">Cyclothymia</a>, and expects her collection to only grow as time goes on.</p>
 <div class="clear-both">
-	<p>Diane's work is always free and available to all, so please consider supporting her on <a href="http://www.patreon.com/dmurring">Patreon</a> or tossing a buck or two into the <a href="http://www.paypal.me/dmurring">tip jar</a>!</p> </div>
+	<p>Diane's work is always free and available to all, so please consider supporting her in a money kind of way via her <a href="http://www.paypal.me/dmurring">tip jar</a>!</p> </div>
 </div>
 
 <div id="section">

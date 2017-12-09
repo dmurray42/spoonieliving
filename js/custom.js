@@ -20,9 +20,17 @@
         });
 
         //Listener: hide mobile ad banner on click
-        $('#hide-banner-btn').click(function () {
+        $('#close-mobile-ad').click(function (e) {
+            e.preventDefault(); //This and returning false prevent the href="#" from scrolling to top
             $('#mobile-ad-banner').hide();
-            $('#hide-banner-btn').hide();
+            return false;
+        });
+
+        //Listener: hide mobile ad banner on click
+        $('#close-desktop-ad').click(function (e) {
+            e.preventDefault(); //This and returning false prevent the href="#" from scrolling to top
+            $('#desktop-ad-banner').hide();
+            return false;
         });
 
     });
