@@ -25,9 +25,7 @@ include "$root/template/pre.php";
 	<!-- Main content -->
 
 	<!-- Introduction -->
-	<p>Each month, we feature a new blog in our monthly newsletter. These are the blogs we've enjoyed reading, posted a bunch of resources from, and/or just want the world to know about! They're sure to become your favorites.</p>
-
-	<p>Want to hear about our featured blogs as soon as we announce them? <a href="http://eepurl.com/b4tg45" target="_blank">You can join our monthly newsletter</a> and get the best posts of each month to boot!</p>
+	<p>These are the blogs we've enjoyed reading, posted a bunch of resources from, and/or just want the world to know about! They're sure to become your favorites.</p>
 	<br>
 
 	<!-- TODO: Standardize images by width instead of height(?); standardize spacing between list items, as current spacing is kind of duct-taped. See .image-text-li and sub-items and be aware that there are no line breaks between some items in this list to compensate. -->
@@ -137,7 +135,7 @@ include "$root/template/pre.php";
 
 		<p><a href="https://howilearnedtocope.tumblr.com">How I Learned to Cope</a>: Resources with all kinds of coping skills</p>
 
-		<p><a href="http://expeditionhappiness.tumblr.com">Chasing Happiness</a>: My quest to stay positive, find beauty and explore life</p>
+		<p><a href="http://expeditionhappiness.tumblr.com">Chasing Happiness</a>: Nina's quest to stay positive, find beauty and explore life</p>
 
 	<!-- End Spoons & Stripes, How I Learned to Cope, and Chasing Happiness -->
 

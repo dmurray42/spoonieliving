@@ -15,7 +15,7 @@
     <li class="favicon"><a href="http://www.twitter.com/spoonieliving"><img src="../img/favicons/twitter.png"></a></li>
     <li class="favicon"><a href="http://blog.spoonieliving.com"><img src="../img/favicons/tumblr.png"></a></li>
     <li class="favicon"><a href="http://www.pinterest.com/spoonieliving"><img src="../img/favicons/pinterest.png"></a></li>
-    <li class="favicon"><a href="http://blog.spoonie-living.com/rss"><img src="../img/favicons/rss.png"></a></li>
+    <li class="favicon"><a href="http://blog.spoonieliving.com/rss"><img src="../img/favicons/rss.png"></a></li>
   </ul>
   <a class="email-btn" href="http://eepurl.com/b4tg45" target="_blank">Get updates by email</a>
 
@@ -138,7 +138,8 @@ Your support helps <a href="../about">Editor Diane</a> keep the daily resources 
   <span class="glyphicon glyphicon-chevron-up"></span>
 </a>
 
-<!-- Desktop ad banner -->
+
+<!-- Desktop ad banner
 <div id="desktop-ad-banner" class="hidden-sm hidden-xs">
   <center>
     <a class="link" href="#" id="close-desktop-ad">Close this ad</a> // <a href="mailto:contact@spoonieliving.com">
@@ -153,9 +154,9 @@ Your support helps <a href="../about">Editor Diane</a> keep the daily resources 
   }());
   </script>
   <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
-</div> <!-- End desktop ad banner -->
+</div> -->
 
-<!-- Mobile ad banner -->
+<!-- Mobile ad banner TODO: Chitika makes its own popup for phones, so smartphone readers get double ads
 <div id="mobile-ad-banner" class="hidden-lg hidden-md">
   <center>
     <a class="link" href="#" id="close-mobile-ad">Close this ad</a> // <a href="mailto:contact@spoonieliving.com">
@@ -172,7 +173,7 @@ Your support helps <a href="../about">Editor Diane</a> keep the daily resources 
   </script>
   <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
 
-</div> <!-- End mobile ad banner -->
+</div> -->
 
 <!--Close ad button TODO: Make this button work
 <div id="hide-banner" class="hidden-lg hidden-md">
