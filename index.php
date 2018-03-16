@@ -24,21 +24,21 @@ include "$root/template/pre.php";
 			<br>
 
 			<div class="row">
-				<div class="col-sm-6 col-md-4">
+				<div class="col-sm-6 col-md-6">
 					<a href="http://bit.ly/chronically-badass">
 						<div class="thumbnail noborder">
 							<img src="../img/baby.png" alt="Baby being fed with spoon"></a>
 							<div class="caption">
-								<p>New to sick kid life? <a href="http://bit.ly/chronically-badass">Check out Chronically Badass, our zine for new spoonies!</a></p>
+								<h4><center><a href="http://bit.ly/chronically-badass">New to sick kid life? Check out Chronically Badass, our zine for new spoonies!</a></center></h4>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-6">
 						<a href="http://blog.spoonieliving.com">
 							<div class="thumbnail noborder">
 								<img src="../img/man.png" alt="Man with spoon"></a>
 								<div class="caption">
-									<p>Want to get straight to the resources? <a href="http://blog.spoonieliving.com">Pop on over to the blog!</a></p>
+									<h4><center><a href="http://blog.spoonieliving.com">Want to get straight to the resources? Head on over to the blog!</a></center></h4>
 								</div>
 							</div>
 						</div>

@@ -17,7 +17,7 @@
     <li class="favicon"><a href="http://www.pinterest.com/spoonieliving"><img src="../img/favicons/pinterest.png"></a></li>
     <li class="favicon"><a href="http://blog.spoonieliving.com/rss"><img src="../img/favicons/rss.png"></a></li>
   </ul>
-  <a class="email-btn" href="http://eepurl.com/b4tg45" target="_blank">Get updates by email</a>
+  <!-- <a class="email-btn" href="http://eepurl.com/b4tg45" target="_blank">Get updates by email</a> -->
 
   <hr/>
 </div>
@@ -102,7 +102,7 @@ Your support helps <a href="../about">Editor Diane</a> keep the daily resources 
 <br><br>
 
 <!-- Newsletter -->
-<a class="email-btn" href="http://eepurl.com/b4tg45" target="_blank">Get updates by email</a>
+<!-- <a class="email-btn" href="http://eepurl.com/b4tg45" target="_blank">Get updates by email</a> -->
 
 </div> <!-- End social widgets -->
 </div> <!-- End bottom bar -->
@@ -124,8 +124,8 @@ Your support helps <a href="../about">Editor Diane</a> keep the daily resources 
   The code is written and managed by <a href="http://www.dmurring.com">Diane Murray</a>, and is available on <a href="http://www.github.com/dmurring/spoonieliving">Github</a>.
   <br><br><!-- End licensing -->
 
-  <!-- TODO: This workaround to make room for ads doesn't scale at all for magnified page view-->
-  <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+  <!-- This workaround is to make room for ads doesn't scale at all for magnified page view
+  <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p> -->
 
 </div> <!-- End column -->
 </div> <!-- End footer -->
@@ -184,7 +184,7 @@ Your support helps <a href="../about">Editor Diane</a> keep the daily resources 
 </div>
 -->
 
-<!--Javascript for the buttons-->
+<!--Javascript-->
 <script src="../js/custom.js"></script>
 
 </body>

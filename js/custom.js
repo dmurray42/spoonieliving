@@ -2,7 +2,6 @@
     $(document).ready(function(){
 
         //"Scroll to top" button behavior
-        //TODO: This doesn't seem to be working.
         $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $('#scroll-top-btn').fadeIn("slow");
