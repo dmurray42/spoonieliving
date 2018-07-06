@@ -34,6 +34,27 @@
 	ga('send', 'pageview');
 	</script>
 
+	<!-- Google Search -->
+	<script type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "WebSite",
+	  "url": "http://www.spoonieliving.com/",
+		"logo": "http://www.spoonieliving.com/img/logo_image.png",
+		"sameAs": [
+	    "http://www.facebook.com/spoonieliving",
+	    "http://www.twitter.com/spoonieliving",
+	    "http://spoonie-living.tumblr.com",
+	    "http://pinterest.com/spoonieliving"
+  	],
+	  "potentialAction": {
+	    "@type": "SearchAction",
+	    "target": "http://blog.spoonieliving.com/search/{search_term_string}",
+	    "query-input": "required name=search_term_string"
+		}
+  }
+	</script>
+
 	<!-- Tumblr follow button -->
 	<!-- TODO (low priority): this is over-engineered; is there way to do this more simply? -->
 	<style type=text/css>*{margin:10;padding:0}#follow-button{display:inline-block;box-sizing:border-box;height:20px;border-radius:3px;text-decoration:none;font:bold 12px "Helvetica Neue",Helvetica,Arial,Sans-serif;line-height:18px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#follow-button .inner{height:100%;padding:0 5px}#follow-button .tumblr-follow-label{display:inline-block;height:100%;max-width:172px;padding-left:6px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}#follow-button .logo-container{float:left;padding-top:2px;width:9px}#follow-button .logo-svg{height:12px}#follow-button.blue{background-color:#36465d;color:#fff;border:1px solid #36465d}#follow-button.blue .logo-svg{fill:#fff}#follow-button.white{background-color:#fff;color:#36465d;border:1px solid #d0d0d0}#follow-button.white .logo-svg{fill:#36465d}#follow-button.black{background-color:#444;color:#fff;border:1px solid #444}#follow-button.black .logo-svg{fill:#fff}</style>

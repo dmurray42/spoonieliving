@@ -308,3 +308,9 @@ a:visited {
 .fit-div {
 	width:85%;
 }
+
+
+/* ****** Tumblr fix ****** */
+.top-blog-header {
+    padding-top:0px !important;
+}
