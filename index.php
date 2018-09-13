@@ -7,6 +7,7 @@ include "$root/template/head.php";
 <title>Spoonie Living</title>
 <meta name="Description" content="Disability and Chronic Illness Lifestyle">
 <meta name="Keywords" content="spoonie, chronic illness, disability, invisible illness, chronic pain, mental illness">
+<meta property="og:image" content="../img/logo_image.png">
 
 
 <?php
