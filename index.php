@@ -9,6 +9,27 @@ include "$root/template/head.php";
 <meta name="Keywords" content="spoonie, chronic illness, disability, invisible illness, chronic pain, mental illness">
 <meta property="og:image" content="../img/logo_image.png">
 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Blog",
+  "url": "http://www.spoonieliving.com",
+  "name": "Spoonie Living",
+  "logo": "../img/logo_image.png",
+	"sameAs": [
+    "http://www.facebook.com/spoonieliving",
+    "http://www.twitter.com/spoonieliving",
+    "http://spoonie-living.tumblr.com",
+    "http://www.pinterest.com/spoonieliving"
+	"potentialAction": [{
+	  "@type": "SearchAction",
+	  "target": "http://blog.spoonieliving.com/search/{search_term_string}",
+	  "query-input": "required name=search_term_string"
+	}]
+  }
+}
+</script>
+
 
 <?php
 include "$root/template/pre.php";
