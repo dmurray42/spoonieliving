@@ -8,6 +8,9 @@ include "$root/template/head.php";
 <meta name="Description" content="Disability and Chronic Illness Lifestyle">
 <meta name="Keywords" content="spoonie, chronic illness, disability, invisible illness, chronic pain, mental illness">
 <meta property="og:image" content="../img/logo_image.png">
+<!-- TODO: See dmurring/accessibleactivism for guidance -->
+<!-- TODO: Can this be merged with below script for Google? -->
+<!-- TODO: Repeat for all the other hosted pages, and Tumblr theme -->
 
 <script type="application/ld+json">
 {

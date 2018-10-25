@@ -8,7 +8,6 @@ include "$root/template/head.php";
 <meta name="Description" content="Disability and Chronic Illness Lifestyle">
 <meta name="Keywords" content="spoonie, chronic illness, disability, invisible illness, chronic pain, mental illness">
 
-
 <?php
 include "$root/template/pre.php";
 ?>
@@ -19,22 +18,23 @@ include "$root/template/pre.php";
 	<img class="textwrap-image-left" src="/img/baby.png" alt="Baby with spoon" width="200">
 	<p>Spoonie Living is a lifestyle blog à la Martha Stewart Living for folks with chronic illness and/or disabilities who aren’t going to let their health problems keep them from living a fantastic life. Here you’ll find <a href="http://www.butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/">spoonie</a>-specific advice, products, reviews, as well as life hacks and awesome mods of all sorts of medical devices&mdash;so <a href="http://blog.spoonieliving.com">have a look</a> and start living the spoonie life with us!</p>
 	<div class="clear-both">
-	<p><i>Have a blog of your own and want to write or solicit a guest post? Have a product you’d like us to advertise or review? Want to collaborate on a project? Drop us a line&mdash;we love making new friends! You can email <a href="mailto:contact@spoonieliving.com">contact@spoonieliving.com</a> or hit us up on social media.
-	</i></p></div>
+	<p><i>Have a blog of your own and want to write or solicit a guest post? Have a product you’d like us to advertise or review? Want to collaborate on a project? Drop us a line&mdash;we love making new friends! You can email <a href="mailto:contact@spoonieliving.com">contact@spoonieliving.com</a> or hit us up on social media.</i></p>
+	<p><a href="../about/mediakit.pdf">View our media kit here.</a> <a href="https://docs.google.com/document/d/13R5lzIo7CZbs1Z_NJ6PVnrVcE8oeKxonuiKVy7FxICI/edit?usp=sharing">(Screenreader version available here)</a></p>
+	</div>
 </div>
 
 <div id="section">
 	<h3>The Editor</h3>
 	<img class="textwrap-image-right" src="/img/headshot.png" alt="Diane Murray" width="150">
-	<p>Spoonie Living is curated by <a href="http://www.dmurring.com">Diane Murray</a>, a spoonie with a passion for creating resources on topics of all kinds. She lives in Portland, OR, with two partners, four cats, and a cute little croissant-fueled <a href="https://en.wiktionary.org/wiki/nibling">nibling</a>.</p>
-	<p>Diane has a not-fully-diagnosed <a href="https://en.wikipedia.org/wiki/Connective_tissue_disease">connective tissue disorder</a>, <a href="https://en.wikipedia.org/wiki/Postural_orthostatic_tachycardia_syndrome">Postural Orthostatic Tachycardia Syndrome</a>, <a href="https://en.wikipedia.org/wiki/Chronic_fatigue_syndrome">Systemic Exertion Intolerance Disease/Chronic Fatigue Syndrome</a>, <a href="https://en.wikipedia.org/wiki/Small_intestinal_bacterial_overgrowth">Small Intestine Bacterial Overgrowth</a>, and <a href="https://en.wikipedia.org/wiki/Cyclothymia">Cyclothymia</a>, and expects her collection to only grow as time goes on.</p>
+	<p>Spoonie Living is curated by <a href="http://www.dmurring.com">Diane Murray</a>, a spoonie with a passion for creating resources on topics of all kinds. She lives in Portland, OR, with two partners, four cats, and a cute little croissant-fueled niecephew.</p>
+	<p>Diane has a subclinical <a href="https://en.wikipedia.org/wiki/Connective_tissue_disease">connective tissue disorder</a>, <a href="https://en.wikipedia.org/wiki/Postural_orthostatic_tachycardia_syndrome">Postural Orthostatic Tachycardia Syndrome</a>, <a href="https://en.wikipedia.org/wiki/Chronic_fatigue_syndrome">Systemic Exertion Intolerance Disease/Chronic Fatigue Syndrome</a>, <a href="https://en.wikipedia.org/wiki/Small_intestinal_bacterial_overgrowth">Small Intestine Bacterial Overgrowth</a>, and <a href="https://en.wikipedia.org/wiki/Cyclothymia">Cyclothymia</a>, and expects her collection to only grow as time goes on.</p>
 <div class="clear-both">
-	<p>Diane's work is always free and available to all, so please consider supporting her in a money kind of way via her <a href="http://www.paypal.me/dmurring">tip jar</a>!</p> </div>
+	<p>Diane's working hard to bring you daily spoonie resources, so please consider supporting her in a money kind of way via her <a href="http://www.paypal.me/dmurring">tip jar</a>!</p> </div>
 </div>
 
 <div id="section">
 	<h3>Inclusion &amp; Social Justice</h3>
-	<p>We know what oppression feels like firsthand, and make it our goal to keep this blog a safe space for all marginalized groups&mdash;chronically ill and otherwise. Spoonie Living practices compassionate intersectional feminism by avoiding racist, appropriative, cissexist, and other -ist language in our original content, and tagging for the same in the content of others.</p>
+	<p>We know what oppression feels like firsthand, and make it our goal to keep this blog a safe space for all marginalized groups&mdash;chronically ill and otherwise. Spoonie Living practices compassionate intersectional feminism by avoiding racist, appropriative, cissexist, and other -ist language in our original content, and tagging for the same in the content of others. And in case it doesn't go without saying, TERF ideology is not welcome.</p>
 
 	<p>We acknowledge that no one can be completely unproblematic all the time, so if you see something we’ve overlooked, or simply have a personal trigger you’d like us to tag for, please feel free to check in via <a href="mailto:contact@spoonieliving.com">email</a>, <a href="http://www.twitter.com/spoonieliving">Twitter</a>, or <a href="http://www.facebook.com">Facebook</a>. We’ll always listen and take appropriate action.</p>
 </div>
@@ -70,6 +70,7 @@ include "$root/template/pre.php";
 
 	<p>Please feel free to <a href="mailto:contact@spoonieliving.com">contact us</a> with any additional questions or concerns about this blog!
 	</p>
+
 </div>
 
 <?php
